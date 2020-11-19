@@ -5,8 +5,8 @@ email: your-email@domain.com
 description: >
   The demo site for Mere Blog Theme, made for Jekyll and GitHub pages websites
 remote_theme: chrisrhymes/merge-blog-theme
-baseurl: 
-url: "https://20-2-skku-oss.github.io/2020-2-OSS-11/"
+url: "https://20-2-skku-oss.github.io"
+baseurl: "/2020-2-OSS-11"
 permalink: pretty
 
 paginate: 6
