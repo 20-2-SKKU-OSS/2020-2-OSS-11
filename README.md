@@ -1,4 +1,4 @@
-# 2020-2-OSS-11
+
 # KoreaNewsCrawler
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
@@ -6,9 +6,6 @@
 크롤링 가능한 기사 카테고리는 정치, 경제, 생활문화, IT과학, 사회, 세계, 오피니언입니다.  
 스포츠 기사같은 경우 야구, 축구, 농구, 배구, 골프, 일반 스포츠, e스포츠입니다.  
 
-**스포츠 기사는 현재 html 형식이 바껴 사용이 불가능 한 상태입니다. 빠른 시일내로 업데이트 하겠습니다.**  
-  
-**스포츠 관련 기사 크롤링 도움을 주실 수 있으신 분을 찾습니다 깃허브에 issue 또는 lumyjuwon@gmail.com로 이메일 주시면 감사하겠습니다**  
 ## User Python Installation
   * **KoreaNewsCrawler**
 
@@ -67,9 +64,6 @@ Crawler.start()
 This crawler crawles news from portal Naver  
 Crawlable article categories include politics, economy, lifeculture, global, IT/science, society.  
 In the case of sports articles, that include Baseball, soccer, basketball, volleyball, golf, general sports, e-sports.  
-
-**In the case of sports articles, you can't use sport article crawler because html form is changed. I will update sport article crawler 
-as soon as possible.**
 
 ## User Python Installation
   * **KoreaNewsCrawler**
