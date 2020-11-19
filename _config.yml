@@ -4,7 +4,7 @@ tagline: Mere Blog Theme
 email: your-email@domain.com
 description: >
   The demo site for Mere Blog Theme, made for Jekyll and GitHub pages websites
-remote_theme: chrisrhymes/merge-blog-theme
+remote_theme: chrisrhymes/mere-blog-theme
 url: "https://20-2-skku-oss.github.io"
 baseurl: "/2020-2-OSS-11"
 permalink: pretty
