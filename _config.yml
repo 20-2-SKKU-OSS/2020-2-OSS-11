@@ -1,12 +1,12 @@
 # Site Settings
-title: Mere Blog Theme
+title: OSS 11조
 tagline: Mere Blog Theme
 email: your-email@domain.com
 description: >
   The demo site for Mere Blog Theme, made for Jekyll and GitHub pages websites
 remote_theme: chrisrhymes/merge-blog-theme
 baseurl: 
-url: "https://www.csrhymes.com"
+url: "https://20-2-skku-oss.github.io/2020-2-OSS-11/"
 permalink: pretty
 
 paginate: 6
