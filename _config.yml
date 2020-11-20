@@ -10,7 +10,7 @@ baseurl: "/2020-2-OSS-11"
 permalink: pretty
 
 # Banner Section
-hero: /_img/home.png
+hero: /_img/home.jpg
 hero-title: 2020-2 OSS Project Team 11
 hero-description: We are developing a news crawler forked from an open source.
 
