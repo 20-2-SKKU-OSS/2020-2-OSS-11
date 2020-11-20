@@ -42,11 +42,11 @@ Crawler.start()
   intel i5 9600 cpu로 테스트 해본 결과 1개의 카테고리 당 평균 **8%** 의 cpu 점유율을 보였습니다.  
   크롤러를 실행하는 컴퓨터 사양에 맞게 카테고리 개수를 맞추시거나 반복문을 이용하시기 바랍니다.
   
-  ![ex_screenshot](./img/multi_process.PNG)
+  ![ex_screenshot](./_img/multi_process.PNG)
   
 ## Results
- ![ex_screenshot](./img/article_result.PNG)
- ![ex_screenshot](./img/sport_resultimg.PNG)
+ ![ex_screenshot](./_img/article_result.PNG)
+ ![ex_screenshot](./_img/sport_resultimg.PNG)
  
  Colum A: 기사 날짜  
  Colum B: 기사 카테고리  
@@ -102,11 +102,11 @@ Crawler.start()
 Testing with intel i5 9600 cpu showed an average ** 8% ** cpu share per category.  
 Please adjust the number of categories to match the specifications of the computer running the crawler, or use a loop.
   
-  ![ex_screenshot](./img/multi_process.PNG)
+  ![ex_screenshot](./_img/multi_process.PNG)
   
 ## Results
- ![ex_screenshot](./img/article_result.PNG)
- ![ex_screenshot](./img/sport_resultimg.PNG)
+ ![ex_screenshot](./_img/article_result.PNG)
+ ![ex_screenshot](./_img/sport_resultimg.PNG)
  
  Colum A: Article Date  
  Colum B: Article Category  
