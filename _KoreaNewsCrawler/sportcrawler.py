@@ -8,7 +8,7 @@ import re
 
 class SportCrawler:
     def __init__(self):
-        self.category = {'야구': "kbaseball", '축구': "kfootball", '농구': "basketball", '배구': "volleyball", '일반 스포츠': "general", 'e스포츠': "esports"}
+        self.category = {'야구': "baseball", '축구': "football", '농구': "basketball", '배구': "volleyball", '일반 스포츠': "general", 'e스포츠': "esports"}
         self.selected_category = []
         self.date = {'startyear': 0, 'endyear': 0, 'endmonth': 0}
 
@@ -85,7 +85,7 @@ class SportCrawler:
 if __name__ == "__main__":
 
 
-    Url_category = ["kbaseball", "kfootball", "basketball", "volleyball", "golf", "general", "esports"]
+    Url_category = ["baseball", "football", "basketball", "volleyball", "golf", "general", "esports"]
     Category = ["야구", "축구", "농구", "배구", "골프", "일반 스포츠", "e스포츠"]
 
     for url_label in Url_category:  # URL 카테고리
