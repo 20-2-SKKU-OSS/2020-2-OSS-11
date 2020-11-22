@@ -4,7 +4,7 @@ title: OSS실습 11조 주제
 author: OSS-11
 description: KoreaNewsCrawler
 intro: OSS실습 11조
-intro_image: "_img/map.png"
+intro_image: ~/
 intro_image_ratio: is-16by9
 ---
 
