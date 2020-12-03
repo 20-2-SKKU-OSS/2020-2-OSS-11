@@ -93,12 +93,12 @@ class ArticleCrawler(object):
         print(category_name + " PID: " + str(os.getpid()))    
 
         writer = Writer(category_name=category_name, date=self.date)
-
         # 기사 URL 형식
         url = "http://news.naver.com/main/list.nhn?mode=LSD&mid=sec&sid1=" + str(self.categories.get(category_name)) + "&date="
-
         # start_year년 start_month월 ~ end_year의 end_month 날짜까지 기사를 수집합니다.
         day_urls = self.make_news_page_url(url, self.date['start_year'], self.date['end_year'], self.date['start_month'], self.date['end_month'])
+        #위 코드가 상당히 오래 걸리는것으로 드러남
+
         print(category_name + " Urls are generated")
         print("The crawler starts")
 
@@ -179,6 +179,6 @@ class ArticleCrawler(object):
 
 if __name__ == "__main__":
     Crawler = ArticleCrawler()
-    Crawler.set_category("생활문화", "IT과학")
-    Crawler.set_date_range(2017, 1, 2018, 4)
+    Crawler.set_category("생활문화")
+    Crawler.set_date_range(2020, 12, 2020, 12)
     Crawler.start()
