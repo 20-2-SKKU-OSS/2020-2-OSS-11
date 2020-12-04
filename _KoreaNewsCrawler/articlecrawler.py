@@ -4,9 +4,12 @@
 from time import sleep
 from bs4 import BeautifulSoup
 from multiprocessing import Process
-from korea_news_crawler.exceptions import *
-from korea_news_crawler.articleparser import ArticleParser
-from korea_news_crawler.writer import Writer
+#from korea_news_crawler.exceptions import *
+from exceptions import *
+from articleparser import ArticleParser
+from writer import Writer
+#from korea_news_crawler.articleparser import ArticleParser
+#from korea_news_crawler.writer import Writer
 import os
 import platform
 import calendar
@@ -72,7 +75,7 @@ class ArticleCrawler(object):
 
                     # totalpage는 네이버 페이지 구조를 이용해서 page=10000으로 지정해 totalpage를 알아냄
                     # page=10000을 입력할 경우 페이지가 존재하지 않기 때문에 page=totalpage로 이동 됨 (Redirect)
-                    print("url is.. "+url)
+
                     totalpage = ArticleParser.find_news_totalpage(url + "&page=10000")
                     for page in range(1, totalpage + 1):
                         made_urls.append(url + "&page=" + str(page))
@@ -83,7 +86,7 @@ class ArticleCrawler(object):
         remaining_tries = int(max_tries)
         while remaining_tries > 0:
             try:
-                return requests.get(url)
+                return requests.get(url,headers={'User-Agent':'Mozilla/5.0'})
             except requests.exceptions:
                 sleep(60)
             remaining_tries = remaining_tries - 1
@@ -98,7 +101,6 @@ class ArticleCrawler(object):
         url = "http://news.naver.com/main/list.nhn?mode=LSD&mid=sec&sid1=" + str(self.categories.get(category_name)) + "&date="
         # start_year년 start_month월 ~ end_year의 end_month 날짜까지 기사를 수집합니다.
         day_urls = self.make_news_page_url(url, self.date['start_year'], self.date['end_year'], self.date['start_month'], self.date['end_month'])
-        #위 코드가 상당히 오래 걸리는것으로 드러남
 
         print(category_name + " Urls are generated")
         print("The crawler starts")
@@ -107,9 +109,9 @@ class ArticleCrawler(object):
 
             regex = re.compile("date=(\d+)")
             news_date = regex.findall(URL)[0]
+            print(news_date)
 
             request = self.get_url_data(URL)
-
             document = BeautifulSoup(request.content, 'html.parser')
 
             # html - newsflash_body - type06_headline, type06
