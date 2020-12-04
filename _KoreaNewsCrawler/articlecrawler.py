@@ -72,6 +72,7 @@ class ArticleCrawler(object):
 
                     # totalpage는 네이버 페이지 구조를 이용해서 page=10000으로 지정해 totalpage를 알아냄
                     # page=10000을 입력할 경우 페이지가 존재하지 않기 때문에 page=totalpage로 이동 됨 (Redirect)
+                    print("url is.. "+url)
                     totalpage = ArticleParser.find_news_totalpage(url + "&page=10000")
                     for page in range(1, totalpage + 1):
                         made_urls.append(url + "&page=" + str(page))
