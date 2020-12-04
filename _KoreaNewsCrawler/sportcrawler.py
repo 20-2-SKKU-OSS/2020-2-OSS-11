@@ -8,17 +8,23 @@ import re
 
 class SportCrawler:
     def __init__(self):
-        self.category = {'야구': "baseball", '축구': "football", '농구': "basketball", '배구': "volleyball", '일반 스포츠': "general", 'e스포츠': "esports"}
+        self.category = {'야구': "kbaseball", '축구': "kfootball", '농구': "basketball", '배구': "volleyball", '일반 스포츠': "general", 'e스포츠': "esports"}
         self.selected_category = []
         self.date = {'startyear': 0, 'endyear': 0, 'endmonth': 0}
 
     def javascript_totalpage(self, url):
+
         totalpage_url = url
         request_content = requests.get(totalpage_url)
         document_content = BeautifulSoup(request_content.content, 'html.parser')
         javascript_content = str(document_content.find_all('script', {'type': 'text/javascript'}))
         regex = re.compile(r'\"totalPages\":(?P<num>\d+)')
         match = regex.findall(javascript_content)
+        #print(totalpage_url) -> url of site
+        #print(request_content) -> html code
+        #print(document_content) -> html parser for python
+        print(javascript_content) ->
+        print(match)
         return int(match[0])
 
     def content(self, html_document, url_label):
@@ -73,26 +79,28 @@ class SportCrawler:
                         Month_Day = "0" + str(Month_Day)
                     url = url + str(year) + str(Month) + str(Month_Day)
                     final_url = url  # page 날짜 정보만 있고 page 정보가 없는 url 임시 저장
+
                     totalpage = self.javascript_totalpage(url)  # TotalPage 확인
                     for page in range(1, totalpage + 1):
                         url = final_url  # url page 초기화
                         url = url + "&page=" + str(page)
                         Maked_url.append(url)  # [[page1,page2,page3 ....]
+        print(Maked_url)
         return Maked_url
 
 
 # Main
 if __name__ == "__main__":
 
-
-    Url_category = ["baseball", "football", "basketball", "volleyball", "golf", "general", "esports"]
+    Spt_crawler=SportCrawler()
+    Url_category = ["kbaseball", "football", "kbasketball", "volleyball", "golf", "general", "esports"]
     Category = ["야구", "축구", "농구", "배구", "골프", "일반 스포츠", "e스포츠"]
 
     for url_label in Url_category:  # URL 카테고리
         category = Category[Url_category.index(url_label)]  # URL 인덱스와 Category 인덱스가 일치할 경우 그 값도 일치
         url = "https://sports.news.naver.com/" + url_label + "/news/index.nhn?isphoto=N&date="
         final_urlday = ""
-        final_urlday = self.Make_url(url, 2017, 2018, 1, 6)  # 2017년 1월 ~ 2018년 6월 마지막 날까지 기사를 수집합니다.
+        final_urlday = Spt_crawler.Make_url(url, 2017, 2017, 1, 2)  # 2017년 1월 ~ 2018년 6월 마지막 날까지 기사를 수집합니다.
         print("succeed making url")
 
         file = open("Sport_" + category + ".csv", 'w', encoding='euc-kr', newline='')
@@ -110,7 +118,7 @@ if __name__ == "__main__":
 
             # 본문
             completed_content_match = []
-            for content_page in self.content(document_content, url_label):
+            for content_page in Spt_crawler.content(document_content, url_label):
                 sleep(0.01)
                 content_request_content = requests.get(content_page)
                 content_document_content = BeautifulSoup(content_request_content.content, 'html.parser')
@@ -120,7 +128,7 @@ if __name__ == "__main__":
                 text_sentence = ''  # 뉴스 기사 본문 내용 초기화
                 try:
                     text_sentence = text_sentence + str(content_Tag_content[0].find_all(text=True))
-                    completed_content_match.append(Clearcontent(text_sentence))
+                    completed_content_match.append(Spt_crawler.Clearcontent(text_sentence))
                 except:
                     pass
 
@@ -138,7 +146,7 @@ if __name__ == "__main__":
                         continue
                     if not csvpress:
                         continue
-                    wcsv.writerow([Clearheadline(csvheadline), csvcontent, csvpress, category])
+                    wcsv.writerow([Spt_crawler.Clearheadline(csvheadline), csvcontent, csvpress, category])
                 except:
                     pass
 
