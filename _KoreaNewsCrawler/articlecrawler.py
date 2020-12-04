@@ -109,7 +109,6 @@ class ArticleCrawler(object):
 
             regex = re.compile("date=(\d+)")
             news_date = regex.findall(URL)[0]
-            print(news_date)
 
             request = self.get_url_data(URL)
             document = BeautifulSoup(request.content, 'html.parser')
