@@ -188,8 +188,8 @@ class SportCrawler:
 # Main
 if __name__ == "__main__":
     Spt_crawler = SportCrawler()
-    Spt_crawler.set_category('야구', '축구')
-    Spt_crawler.set_date_range(2017,1,2017,1)
+    Spt_crawler.set_category('야구')
+    Spt_crawler.set_date_range(2020,12,2020,12)
     Spt_crawler.start()
 
 """
