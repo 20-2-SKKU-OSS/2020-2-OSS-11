@@ -4,7 +4,7 @@ import calendar
 import csv
 import requests
 import re
-
+import json
 
 class SportCrawler:
     def __init__(self):
@@ -82,7 +82,6 @@ class SportCrawler:
                         url = final_url  # url page 초기화
                         url = url + "&page=" + str(page)
                         Maked_url.append(url)  # [[page1,page2,page3 ....]
-        print(Maked_url)
         return Maked_url
 
 
@@ -92,10 +91,9 @@ if __name__ == "__main__":
     Spt_crawler=SportCrawler()
     Url_category = ["kbaseball", "football", "kbasketball", "volleyball", "golf", "general", "esports"]
     Category = ["야구", "축구", "농구", "배구", "골프", "일반 스포츠", "e스포츠"]
-
     for url_label in Url_category:  # URL 카테고리
         category = Category[Url_category.index(url_label)]  # URL 인덱스와 Category 인덱스가 일치할 경우 그 값도 일치
-        url = "https://sports.news.naver.com/" + url_label + "/news/index.nhn?isphoto=N&date="
+        url = "https://sports.news.naver.com/" + url_label + "/news/list.nhn?isphoto=N&view=photo&date="
         final_urlday = ""
         final_urlday = Spt_crawler.Make_url(url, 2017, 2017, 1, 2)  # 2017년 1월 ~ 2017년 2월 마지막 날까지 기사를 수집합니다.
         print("succeed making url")
@@ -107,11 +105,14 @@ if __name__ == "__main__":
             # 제목 / URL
             print(list_page)
             request_content = requests.get(list_page,headers={'User-Agent':'Mozilla/5.0'})
-            soup = BeautifulSoup(request_content.content, 'html.parser')
-            print(soup)
-            bef_hefscript=re.findall('<a href="(.*)" class="title" onclick="clickcr\(this,' ,request_content.text)[:-1]
-            bef_titlescript = re.findall('class="title" onclick="clickcr\(this, (.*)pan>',request_content.text)[:-1] #Last value is unnecessary
-            titlescript=[]
+            print(request_content.text)
+            content_dict=json.loads(request_content.text)
+
+            bef_titlescript = re.findall('"title":"(.*)",',request_content.text) #Last value is unnecessary
+            oidscript = re.findall('"oid":"(.*)",',request_content.text)
+            aidscript = re.findall('"aid":"(.*)",',request_content.text)
+            officename_script = re.findall('"officeName":"(.*)",',request_content.text)
+            print(len(bef_titlescript),len(oidscript),len(aidscript),len(officename_script))
             hefscript=[]
             for beftitle in bef_titlescript:
                 title = re.findall('<span>(.*)</s',beftitle)[0]
