@@ -15,14 +15,11 @@ class SportCrawler:
     def javascript_totalpage(self, url):
 
         totalpage_url = url +"&page=10000"
+        print(totalpage_url)
         request_content = requests.get(totalpage_url,headers={'User-Agent':'Mozilla/5.0'})
-        document_content = BeautifulSoup(request_content.content, 'html.parser')
-        javascript_content = str(document_content.find_all('script', {'type': 'text/javascript'}))
-        #print(javascript_content)
-        regex = re.compile(r'\"totalPages\":(?P<num>\d+)')
-        match = regex.findall(javascript_content)
-        #return int(match[0])
-        return 3
+        pagenumber = re.findall('\"totalPages\":(.*)}',request_content.text)
+        return int(pagenumber[0])
+
 
     def content(self, html_document, url_label):
         label = url_label
@@ -105,23 +102,17 @@ if __name__ == "__main__":
             # 제목 / URL
             print(list_page)
             request_content = requests.get(list_page,headers={'User-Agent':'Mozilla/5.0'})
-            print(request_content.text)
             content_dict=json.loads(request_content.text)
-
-            bef_titlescript = re.findall('"title":"(.*)",',request_content.text) #Last value is unnecessary
-            oidscript = re.findall('"oid":"(.*)",',request_content.text)
-            aidscript = re.findall('"aid":"(.*)",',request_content.text)
-            officename_script = re.findall('"officeName":"(.*)",',request_content.text)
-            print(len(bef_titlescript),len(oidscript),len(aidscript),len(officename_script))
+            titlescript=[]
             hefscript=[]
-            for beftitle in bef_titlescript:
-                title = re.findall('<span>(.*)</s',beftitle)[0]
-                titlescript.append(title)
-            for befhef in bef_hefscript:
-                hef = "https://sports.news.naver.com"+befhef
-                hefscript.append(hef)
-            print(hefscript)
-            print(titlescript)
+            officename_script=[]
+            for contents in content_dict["list"]:
+                print(contents)
+                oid = contents['oid']
+                aid = contents['aid']
+                titlescript.append(contents['title'])
+                hefscript.append("https://sports.news.naver.com/news.nhn?oid="+oid+"&aid="+aid)
+                officename_script.append(contents['officeName'])
             """
             document_content = BeautifulSoup(request_content.content, 'html.parser')  # 기사 목록을 보여주는 페이지
             # 제목
@@ -130,12 +121,10 @@ if __name__ == "__main__":
             regex = re.compile('title":"(?P<str>.+)","subContent')
             headline_match = regex.findall(Tag_)
             """
-
             # 본문
             # content page 기반하여 본문을 하면 된다. text_sentence에 본문을 넣고 Clearcontent진행 후 completed_conten_match에 append해주면 된다.
             # 추가적으로 pass_match에 언론사를 집어넣으면 된다.
             completed_content_match = []
-            pass_match=[]
             for content_page in hefscript:
                 sleep(0.01)
                 content_request_content = requests.get(content_page,headers={'User-Agent':'Mozilla/5.0'})
@@ -144,15 +133,12 @@ if __name__ == "__main__":
                                                                         {'id': 'newsEndContents'})
 
                 text_sentence = ''  # 뉴스 기사 본문 내용 초기화
-                bef_officename = re.findall('<meta property="og:article:author" content="(.*)"/>',content_request_content.text)
-                pass_match.append(bef_officename)
+
                 try:
                     text_sentence = text_sentence + str(content_Tag_content[0].find_all(text=True))
                     completed_content_match.append(Spt_crawler.Clearcontent(text_sentence))
                 except:
                     pass
-            print(len(completed_content_match))
-            print(len(pass_match))
             """
             # 언론사
             document_content = BeautifulSoup(request_content.content, 'html.parser')  # 기사 목록을 보여주는 페이지
@@ -164,7 +150,7 @@ if __name__ == "__main__":
             """
 
             # Csv 작성
-            for csvheadline, csvcontent, csvpress in zip(titlescript, completed_content_match, pass_match):
+            for csvheadline, csvcontent, csvpress in zip(titlescript, completed_content_match, officename_script):
                 try:
                     if not csvheadline:
                         continue
