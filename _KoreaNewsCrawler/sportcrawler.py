@@ -14,18 +14,15 @@ class SportCrawler:
 
     def javascript_totalpage(self, url):
 
-        totalpage_url = url
-        request_content = requests.get(totalpage_url)
+        totalpage_url = url +"&page=10000"
+        request_content = requests.get(totalpage_url,headers={'User-Agent':'Mozilla/5.0'})
         document_content = BeautifulSoup(request_content.content, 'html.parser')
         javascript_content = str(document_content.find_all('script', {'type': 'text/javascript'}))
+        #print(javascript_content)
         regex = re.compile(r'\"totalPages\":(?P<num>\d+)')
         match = regex.findall(javascript_content)
-        #print(totalpage_url) -> url of site
-        #print(request_content) -> html code
-        #print(document_content) -> html parser for python
-        print(javascript_content) ->
-        print(match)
-        return int(match[0])
+        #return int(match[0])
+        return 3
 
     def content(self, html_document, url_label):
         label = url_label
@@ -107,38 +104,66 @@ if __name__ == "__main__":
         wcsv = csv.writer(file)
 
         for list_page in final_urlday:  # Category Year Month Data Page 처리 된 URL
-            request_content = requests.get(list_page)
+            # 제목 / URL
+            print(list_page)
+            request_content = requests.get(list_page,headers={'User-Agent':'Mozilla/5.0'})
+            soup = BeautifulSoup(request_content.content, 'html.parser')
+            print(soup)
+            bef_hefscript=re.findall('<a href="(.*)" class="title" onclick="clickcr\(this,' ,request_content.text)[:-1]
+            bef_titlescript = re.findall('class="title" onclick="clickcr\(this, (.*)pan>',request_content.text)[:-1] #Last value is unnecessary
+            titlescript=[]
+            hefscript=[]
+            for beftitle in bef_titlescript:
+                title = re.findall('<span>(.*)</s',beftitle)[0]
+                titlescript.append(title)
+            for befhef in bef_hefscript:
+                hef = "https://sports.news.naver.com"+befhef
+                hefscript.append(hef)
+            print(hefscript)
+            print(titlescript)
+            """
             document_content = BeautifulSoup(request_content.content, 'html.parser')  # 기사 목록을 보여주는 페이지
-
             # 제목
             Tag = document_content.find_all('script', {'type': 'text/javascript'})
             Tag_ = re.sub('subContent', 'subContent\n', str(Tag))  # "officeName":"인벤","title"
             regex = re.compile('title":"(?P<str>.+)","subContent')
             headline_match = regex.findall(Tag_)
+            """
 
             # 본문
+            # content page 기반하여 본문을 하면 된다. text_sentence에 본문을 넣고 Clearcontent진행 후 completed_conten_match에 append해주면 된다.
+            # 추가적으로 pass_match에 언론사를 집어넣으면 된다.
             completed_content_match = []
-            for content_page in Spt_crawler.content(document_content, url_label):
+            pass_match=[]
+            for content_page in hefscript:
                 sleep(0.01)
-                content_request_content = requests.get(content_page)
+                content_request_content = requests.get(content_page,headers={'User-Agent':'Mozilla/5.0'})
                 content_document_content = BeautifulSoup(content_request_content.content, 'html.parser')
                 content_Tag_content = content_document_content.find_all('div', {'class': 'news_end'},
                                                                         {'id': 'newsEndContents'})
 
                 text_sentence = ''  # 뉴스 기사 본문 내용 초기화
+                bef_officename = re.findall('<meta property="og:article:author" content="(.*)"/>',content_request_content.text)
+                pass_match.append(bef_officename)
                 try:
                     text_sentence = text_sentence + str(content_Tag_content[0].find_all(text=True))
                     completed_content_match.append(Spt_crawler.Clearcontent(text_sentence))
                 except:
                     pass
-
+            print(len(completed_content_match))
+            print(len(pass_match))
+            """
             # 언론사
+            document_content = BeautifulSoup(request_content.content, 'html.parser')  # 기사 목록을 보여주는 페이지
+            Tag = document_content.find_all('script', {'type': 'text/javascript'})
             Tag_ = re.sub('title', 'title\n', str(Tag))  # "officeName":"인벤","title"
             regex = re.compile('officeName":"(?P<str>.+)","title')
             pass_match = regex.findall(Tag_)
+            print(pass_match)
+            """
 
             # Csv 작성
-            for csvheadline, csvcontent, csvpress in zip(headline_match, completed_content_match, pass_match):
+            for csvheadline, csvcontent, csvpress in zip(titlescript, completed_content_match, pass_match):
                 try:
                     if not csvheadline:
                         continue
