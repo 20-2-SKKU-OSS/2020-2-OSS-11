@@ -97,7 +97,7 @@ if __name__ == "__main__":
         category = Category[Url_category.index(url_label)]  # URL 인덱스와 Category 인덱스가 일치할 경우 그 값도 일치
         url = "https://sports.news.naver.com/" + url_label + "/news/index.nhn?isphoto=N&date="
         final_urlday = ""
-        final_urlday = Spt_crawler.Make_url(url, 2017, 2017, 1, 2)  # 2017년 1월 ~ 2018년 6월 마지막 날까지 기사를 수집합니다.
+        final_urlday = Spt_crawler.Make_url(url, 2017, 2017, 1, 2)  # 2017년 1월 ~ 2017년 2월 마지막 날까지 기사를 수집합니다.
         print("succeed making url")
 
         file = open("Sport_" + category + ".csv", 'w', encoding='euc-kr', newline='')
