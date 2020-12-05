@@ -5,17 +5,19 @@ import csv
 import requests
 import re
 import json
+from exceptions import *
 
 class SportCrawler:
     def __init__(self):
-        self.category = {'야구': "kbaseball", '축구': "kfootball", '농구': "basketball", '배구': "volleyball", '일반 스포츠': "general", 'e스포츠': "esports"}
+        self.category = {'야구': "kbaseball",'해외야구': "wbaseball",'해외축구' : "wfootball",
+                         '축구': "kfootball", '농구': "basketball", '배구': "volleyball", '일반 스포츠': "general", 'e스포츠': "esports"}
         self.selected_category = []
+        self.selected_urlcategory=[]
         self.date = {'startyear': 0, 'endyear': 0, 'endmonth': 0}
 
     def javascript_totalpage(self, url):
 
         totalpage_url = url +"&page=10000"
-        print(totalpage_url)
         request_content = requests.get(totalpage_url,headers={'User-Agent':'Mozilla/5.0'})
         pagenumber = re.findall('\"totalPages\":(.*)}',request_content.text)
         return int(pagenumber[0])
@@ -81,13 +83,24 @@ class SportCrawler:
                         Maked_url.append(url)  # [[page1,page2,page3 ....]
         return Maked_url
 
-
+    def set_category(self, *args):
+        for key in args:
+            if self.category.get(key) is None:
+                raise InvalidCategory(key)
+        self.selected_category = args
+        for selected in self.selected_category:
+            self.selected_urlcategory.append(self.category[selected])
 # Main
 if __name__ == "__main__":
 
     Spt_crawler=SportCrawler()
-    Url_category = ["kbaseball", "football", "kbasketball", "volleyball", "golf", "general", "esports"]
-    Category = ["야구", "축구", "농구", "배구", "골프", "일반 스포츠", "e스포츠"]
+    Spt_crawler.set_category('야구','축구')
+    Url_category = Spt_crawler.selected_urlcategory
+    Category = Spt_crawler.selected_category
+    titlescript = []
+    hefscript = []
+    officename_script = []
+    completed_content_match = []
     for url_label in Url_category:  # URL 카테고리
         category = Category[Url_category.index(url_label)]  # URL 인덱스와 Category 인덱스가 일치할 경우 그 값도 일치
         url = "https://sports.news.naver.com/" + url_label + "/news/list.nhn?isphoto=N&view=photo&date="
@@ -100,14 +113,10 @@ if __name__ == "__main__":
 
         for list_page in final_urlday:  # Category Year Month Data Page 처리 된 URL
             # 제목 / URL
-            print(list_page)
             request_content = requests.get(list_page,headers={'User-Agent':'Mozilla/5.0'})
             content_dict=json.loads(request_content.text)
-            titlescript=[]
-            hefscript=[]
-            officename_script=[]
+
             for contents in content_dict["list"]:
-                print(contents)
                 oid = contents['oid']
                 aid = contents['aid']
                 titlescript.append(contents['title'])
@@ -124,7 +133,7 @@ if __name__ == "__main__":
             # 본문
             # content page 기반하여 본문을 하면 된다. text_sentence에 본문을 넣고 Clearcontent진행 후 completed_conten_match에 append해주면 된다.
             # 추가적으로 pass_match에 언론사를 집어넣으면 된다.
-            completed_content_match = []
+
             for content_page in hefscript:
                 sleep(0.01)
                 content_request_content = requests.get(content_page,headers={'User-Agent':'Mozilla/5.0'})
@@ -150,16 +159,16 @@ if __name__ == "__main__":
             """
 
             # Csv 작성
-            for csvheadline, csvcontent, csvpress in zip(titlescript, completed_content_match, officename_script):
-                try:
-                    if not csvheadline:
-                        continue
-                    if not csvcontent:
-                        continue
-                    if not csvpress:
-                        continue
-                    wcsv.writerow([Spt_crawler.Clearheadline(csvheadline), csvcontent, csvpress, category])
-                except:
-                    pass
+    for csvheadline, csvcontent, csvpress in zip(titlescript, completed_content_match, officename_script):
+        try:
+            if not csvheadline:
+                continue
+            if not csvcontent:
+                continue
+            if not csvpress:
+                continue
+            wcsv.writerow([Spt_crawler.Clearheadline(csvheadline), csvcontent, csvpress, category])
+        except:
+            pass
 
         file.close()
