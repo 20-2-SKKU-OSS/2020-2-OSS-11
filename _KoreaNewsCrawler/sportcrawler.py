@@ -10,8 +10,8 @@ from multiprocessing import Process
 
 class SportCrawler:
     def __init__(self):
-        self.category = {'야구': "kbaseball",'해외야구': "wbaseball",'해외축구' : "wfootball",
-                         '축구': "kfootball", '농구': "basketball", '배구': "volleyball", '일반 스포츠': "general", 'e스포츠': "esports"}
+        self.category = {'한국야구': "kbaseball",'해외야구': "wbaseball",'해외축구' : "wfootball",
+                         '한국축구': "kfootball", '농구': "basketball", '배구': "volleyball", '일반 스포츠': "general", 'e스포츠': "esports"}
         self.selected_category = []
         self.selected_urlcategory=[]
         self.date = {'startyear': 0,'startmonth':0, 'endyear': 0, 'endmonth': 0}
@@ -176,6 +176,6 @@ class SportCrawler:
 # Main
 if __name__ == "__main__":
     Spt_crawler = SportCrawler()
-    Spt_crawler.set_category('야구')
-    Spt_crawler.set_date_range(2020,12,2020,12)
+    Spt_crawler.set_category('한국야구','한국축구')
+    Spt_crawler.set_date_range(2017,4,2018,1)
     Spt_crawler.start()
