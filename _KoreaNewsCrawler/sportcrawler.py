@@ -48,6 +48,7 @@ class SportCrawler:
         for i in range(0, len(remove_strip)):
             if reverse_content[
                i:i + 2] == '.다':  # 기사가 reverse 되었기에  ".다"로 기사가 마무리 되므로, 이를 탐색하여 불필요한 정보를 모두 지운다.
+
                 cleared_content = ''.join(reversed(reverse_content[i:]))
                 break
         cleared_content=re.sub('if deployPhase(.*)displayRMCPlayer ','',cleared_content)
