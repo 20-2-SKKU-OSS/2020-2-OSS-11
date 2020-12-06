@@ -50,7 +50,7 @@ class SportCrawler:
                i:i + 2] == '.다':  # 기사가 reverse 되었기에  ".다"로 기사가 마무리 되므로, 이를 탐색하여 불필요한 정보륾 모두 지운다. 
                 cleared_content = ''.join(reversed(reverse_content[i:]))
                 break
-        re.sub('if deploy.*?displayRMCPlayer ','',cleared_content)
+        cleared_content=re.sub('if deployPhase(.*)displayRMCPlayer ','',cleared_content)
         return cleared_content
 
     def Clearheadline(self, text):
@@ -108,7 +108,6 @@ class SportCrawler:
                 # 제목 / URL
                 request_content = requests.get(list_page, headers={'User-Agent': 'Mozilla/5.0'})
                 content_dict = json.loads(request_content.text)
-                print(content_dict)
                 print("now for..",list_page)
                 hefscript = []
                 for contents in content_dict["list"]:
@@ -176,6 +175,6 @@ class SportCrawler:
 # Main
 if __name__ == "__main__":
     Spt_crawler = SportCrawler()
-    Spt_crawler.set_category('야구','축구')
-    Spt_crawler.set_date_range(2017,12,2017,12)
+    Spt_crawler.set_category('야구')
+    Spt_crawler.set_date_range(2020,12,2020,12)
     Spt_crawler.start()
