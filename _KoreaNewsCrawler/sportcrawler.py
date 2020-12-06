@@ -10,8 +10,8 @@ from multiprocessing import Process
 
 class SportCrawler:
     def __init__(self):
-        self.category = {'야구': "kbaseball",'해외야구': "wbaseball",'해외축구' : "wfootball",
-                         '축구': "kfootball", '농구': "basketball", '배구': "volleyball", '일반 스포츠': "general", 'e스포츠': "esports"}
+        self.category = {'한국야구': "kbaseball",'해외야구': "wbaseball",'해외축구' : "wfootball",
+                         '한국축구': "kfootball", '농구': "basketball", '배구': "volleyball", '일반 스포츠': "general", 'e스포츠': "esports"}
         self.selected_category = []
         self.selected_urlcategory=[]
         self.date = {'startyear': 0,'startmonth':0, 'endyear': 0, 'endmonth': 0}
@@ -47,9 +47,11 @@ class SportCrawler:
         cleared_content = ''
         for i in range(0, len(remove_strip)):
             if reverse_content[
-               i:i + 2] == '.다':  # 기사가 reverse 되었기에  ".다"로 기사가 마무리 되므로, 이를 탐색하여 불필요한 정보를 모두 지운다. 
+               i:i + 2] == '.다':  # 기사가 reverse 되었기에  ".다"로 기사가 마무리 되므로, 이를 탐색하여 불필요한 정보를 모두 지운다.
+
                 cleared_content = ''.join(reversed(reverse_content[i:]))
                 break
+        cleared_content=re.sub('if deployPhase(.*)displayRMCPlayer ','',cleared_content)
         return cleared_content
 
     def Clearheadline(self, text):
@@ -92,6 +94,7 @@ class SportCrawler:
 
         officename_script = []
         completed_content_match = []
+        timescript=[]
         for url_label in Url_category:  # URL 카테고리. Multiprocessing시 어차피 1번 도는거라 refactoring할 필요 있어보임
             category = Category[Url_category.index(url_label)]  # URL 인덱스와 Category 인덱스가 일치할 경우 그 값도 일치
             url = "https://sports.news.naver.com/" + url_label + "/news/list.nhn?isphoto=N&view=photo&date="
@@ -101,7 +104,7 @@ class SportCrawler:
             file = open("Sport_" + category + "_"+str(self.date['startyear'])+str(self.date['startmonth'])
                         +"_"+str(self.date['endyear'])+str(self.date['endmonth'])+".csv", 'w', encoding='euc-kr', newline='')
             wcsv = csv.writer(file)
-
+            hefscript2=[]
             for list_page in final_urlday:  # Category Year Month Data Page 처리 된 URL
                 # 제목 / URL
                 request_content = requests.get(list_page, headers={'User-Agent': 'Mozilla/5.0'})
@@ -111,16 +114,10 @@ class SportCrawler:
                     oid = contents['oid']
                     aid = contents['aid']
                     titlescript.append(contents['title'])
+                    timescript.append(contents['datetime'])
                     hefscript.append("https://sports.news.naver.com/news.nhn?oid=" + oid + "&aid=" + aid)
+                    hefscript2.append("https://sports.news.naver.com/news.nhn?oid=" + oid + "&aid=" + aid)
                     officename_script.append(contents['officeName'])
-                """
-                document_content = BeautifulSoup(request_content.content, 'html.parser')  # 기사 목록을 보여주는 페이지
-                # 제목
-                Tag = document_content.find_all('script', {'type': 'text/javascript'})
-                Tag_ = re.sub('subContent', 'subContent\n', str(Tag))  # "officeName":"인벤","title"
-                regex = re.compile('title":"(?P<str>.+)","subContent')
-                headline_match = regex.findall(Tag_)
-                """
                 # 본문
                 # content page 기반하여 본문을 하면 된다. text_sentence에 본문을 넣고 Clearcontent진행 후 completed_conten_match에 append해주면 된다.
                 # 추가적으로 pass_match에 언론사를 집어넣으면 된다.
@@ -139,17 +136,19 @@ class SportCrawler:
                         completed_content_match.append(self.Clearcontent(text_sentence))
                     except:
                         pass
-                    
+
             # Csv 작성
-            for csvheadline, csvcontent, csvpress in zip(titlescript, completed_content_match, officename_script):
+            for csvtimeline, csvheadline, csvcontent, csvpress, csvurl in zip(timescript,titlescript, completed_content_match, officename_script,hefscript2):
                 try:
+                    if not csvtimeline:
+                        continue
                     if not csvheadline:
                         continue
                     if not csvcontent:
                         continue
                     if not csvpress:
                         continue
-                    wcsv.writerow([self.Clearheadline(csvheadline), csvcontent, csvpress, category])
+                    wcsv.writerow([csvtimeline, self.Clearheadline(csvheadline), csvcontent, csvpress, category,csvurl])
                 except:
                     pass
 
@@ -177,6 +176,6 @@ class SportCrawler:
 # Main
 if __name__ == "__main__":
     Spt_crawler = SportCrawler()
-    Spt_crawler.set_category('야구','축구')
-    Spt_crawler.set_date_range(2017,12,2017,12)
+    Spt_crawler.set_category('한국야구','한국축구')
+    Spt_crawler.set_date_range(2017,4,2018,1)
     Spt_crawler.start()
