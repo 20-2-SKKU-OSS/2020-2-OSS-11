@@ -63,7 +63,7 @@ favicon: assets/built/images/news3.jpg
 production_url: https://20-2-skku-oss.github.io/2020-2-OSS-11
 # 최종적으로 blog가 운영될 url
 
-source_url:
+source_url: https://github.com/20-2-SKKU-OSS/2020-2-OSS-11/tree/gh-pages
 # blogmaker(jekyll source folder)에 대한 github repository
 
 # Social info
