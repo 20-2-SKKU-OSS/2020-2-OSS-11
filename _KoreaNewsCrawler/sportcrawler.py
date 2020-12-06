@@ -103,7 +103,7 @@ class SportCrawler:
             file = open("Sport_" + category + "_"+str(self.date['startyear'])+str(self.date['startmonth'])
                         +"_"+str(self.date['endyear'])+str(self.date['endmonth'])+".csv", 'w', encoding='euc-kr', newline='')
             wcsv = csv.writer(file)
-
+            hefscript2=[]
             for list_page in final_urlday:  # Category Year Month Data Page 처리 된 URL
                 # 제목 / URL
                 request_content = requests.get(list_page, headers={'User-Agent': 'Mozilla/5.0'})
@@ -116,6 +116,7 @@ class SportCrawler:
                     titlescript.append(contents['title'])
                     timescript.append(contents['datetime'])
                     hefscript.append("https://sports.news.naver.com/news.nhn?oid=" + oid + "&aid=" + aid)
+                    hefscript2.append("https://sports.news.naver.com/news.nhn?oid=" + oid + "&aid=" + aid)
                     officename_script.append(contents['officeName'])
                 # 본문
                 # content page 기반하여 본문을 하면 된다. text_sentence에 본문을 넣고 Clearcontent진행 후 completed_conten_match에 append해주면 된다.
@@ -137,7 +138,7 @@ class SportCrawler:
                         pass
 
             # Csv 작성
-            for csvtimeline, csvheadline, csvcontent, csvpress in zip(timescript,titlescript, completed_content_match, officename_script):
+            for csvtimeline, csvheadline, csvcontent, csvpress in zip(timescript,titlescript, completed_content_match, officename_script,hefscript2):
                 try:
                     if not csvtimeline:
                         continue
