@@ -106,7 +106,6 @@ class SportCrawler:
                 # 제목 / URL
                 request_content = requests.get(list_page, headers={'User-Agent': 'Mozilla/5.0'})
                 content_dict = json.loads(request_content.text)
-                print("now for..",list_page)
                 hefscript = []
                 for contents in content_dict["list"]:
                     oid = contents['oid']
@@ -140,16 +139,7 @@ class SportCrawler:
                         completed_content_match.append(self.Clearcontent(text_sentence))
                     except:
                         pass
-                """
-                # 언론사
-                document_content = BeautifulSoup(request_content.content, 'html.parser')  # 기사 목록을 보여주는 페이지
-                Tag = document_content.find_all('script', {'type': 'text/javascript'})
-                Tag_ = re.sub('title', 'title\n', str(Tag))  # "officeName":"인벤","title"
-                regex = re.compile('officeName":"(?P<str>.+)","title')
-                pass_match = regex.findall(Tag_)
-                print(pass_match)
-                """
-
+                    
             # Csv 작성
             for csvheadline, csvcontent, csvpress in zip(titlescript, completed_content_match, officename_script):
                 try:
