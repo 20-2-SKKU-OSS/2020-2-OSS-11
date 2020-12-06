@@ -30,7 +30,7 @@ class InvalidArgs(Exception):
 class InvalidCategory(Exception):
     def __init__(self, category):
         self.category = category
-        self.message = " is not valid."
+        self.message = " is Invalid Category."
 
     def __str__(self):
         return str(self.category + self.message)
