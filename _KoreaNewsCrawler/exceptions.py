@@ -21,7 +21,7 @@ class UnderFlow(Exception):
 class InvalidArgs(Exception):
     def __init__(self, args):
         self.args = args
-        self.message = " is not Invalid Arguments"
+        self.message = " is Invalid Arguments"
 
     def __str__(self):
         return str(self.args + self.message)
