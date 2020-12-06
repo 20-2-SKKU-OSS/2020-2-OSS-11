@@ -50,6 +50,7 @@ class SportCrawler:
                i:i + 2] == '.다':  # 기사가 reverse 되었기에  ".다"로 기사가 마무리 되므로, 이를 탐색하여 불필요한 정보륾 모두 지운다. 
                 cleared_content = ''.join(reversed(reverse_content[i:]))
                 break
+        re.sub('if deploy.*?displayRMCPlayer ','',cleared_content)
         return cleared_content
 
     def Clearheadline(self, text):
@@ -92,6 +93,7 @@ class SportCrawler:
 
         officename_script = []
         completed_content_match = []
+        timescript=[]
         for url_label in Url_category:  # URL 카테고리. Multiprocessing시 어차피 1번 도는거라 refactoring할 필요 있어보임
             category = Category[Url_category.index(url_label)]  # URL 인덱스와 Category 인덱스가 일치할 경우 그 값도 일치
             url = "https://sports.news.naver.com/" + url_label + "/news/list.nhn?isphoto=N&view=photo&date="
@@ -106,22 +108,16 @@ class SportCrawler:
                 # 제목 / URL
                 request_content = requests.get(list_page, headers={'User-Agent': 'Mozilla/5.0'})
                 content_dict = json.loads(request_content.text)
+                print(content_dict)
                 print("now for..",list_page)
                 hefscript = []
                 for contents in content_dict["list"]:
                     oid = contents['oid']
                     aid = contents['aid']
                     titlescript.append(contents['title'])
+                    timescript.append(contents['datetime'])
                     hefscript.append("https://sports.news.naver.com/news.nhn?oid=" + oid + "&aid=" + aid)
                     officename_script.append(contents['officeName'])
-                """
-                document_content = BeautifulSoup(request_content.content, 'html.parser')  # 기사 목록을 보여주는 페이지
-                # 제목
-                Tag = document_content.find_all('script', {'type': 'text/javascript'})
-                Tag_ = re.sub('subContent', 'subContent\n', str(Tag))  # "officeName":"인벤","title"
-                regex = re.compile('title":"(?P<str>.+)","subContent')
-                headline_match = regex.findall(Tag_)
-                """
                 # 본문
                 # content page 기반하여 본문을 하면 된다. text_sentence에 본문을 넣고 Clearcontent진행 후 completed_conten_match에 append해주면 된다.
                 # 추가적으로 pass_match에 언론사를 집어넣으면 된다.
@@ -140,26 +136,19 @@ class SportCrawler:
                         completed_content_match.append(self.Clearcontent(text_sentence))
                     except:
                         pass
-                """
-                # 언론사
-                document_content = BeautifulSoup(request_content.content, 'html.parser')  # 기사 목록을 보여주는 페이지
-                Tag = document_content.find_all('script', {'type': 'text/javascript'})
-                Tag_ = re.sub('title', 'title\n', str(Tag))  # "officeName":"인벤","title"
-                regex = re.compile('officeName":"(?P<str>.+)","title')
-                pass_match = regex.findall(Tag_)
-                print(pass_match)
-                """
 
             # Csv 작성
-            for csvheadline, csvcontent, csvpress in zip(titlescript, completed_content_match, officename_script):
+            for csvtimeline, csvheadline, csvcontent, csvpress in zip(timescript,titlescript, completed_content_match, officename_script):
                 try:
+                    if not csvtimeline:
+                        continue
                     if not csvheadline:
                         continue
                     if not csvcontent:
                         continue
                     if not csvpress:
                         continue
-                    wcsv.writerow([self.Clearheadline(csvheadline), csvcontent, csvpress, category])
+                    wcsv.writerow([csvtimeline, self.Clearheadline(csvheadline), csvcontent, csvpress, category])
                 except:
                     pass
 
