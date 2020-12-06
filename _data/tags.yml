@@ -1,0 +1,4 @@
+newscrawling :
+  name: newscrawling
+  description: False
+  cover: assets/built/images/picture2.jpg
