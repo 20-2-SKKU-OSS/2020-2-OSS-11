@@ -47,7 +47,7 @@ class SportCrawler:
         cleared_content = ''
         for i in range(0, len(remove_strip)):
             if reverse_content[
-               i:i + 2] == '.다':  # 기사가 reverse 되었기에  ".다"로 기사가 마무리 되므로, 이를 탐색하여 불필요한 정보륾 모두 지운다. 
+               i:i + 2] == '.다':  # 기사가 reverse 되었기에  ".다"로 기사가 마무리 되므로, 이를 탐색하여 불필요한 정보를 모두 지운다.
                 cleared_content = ''.join(reversed(reverse_content[i:]))
                 break
         cleared_content=re.sub('if deployPhase(.*)displayRMCPlayer ','',cleared_content)
@@ -108,7 +108,6 @@ class SportCrawler:
                 # 제목 / URL
                 request_content = requests.get(list_page, headers={'User-Agent': 'Mozilla/5.0'})
                 content_dict = json.loads(request_content.text)
-                print("now for..",list_page)
                 hefscript = []
                 for contents in content_dict["list"]:
                     oid = contents['oid']
@@ -138,7 +137,7 @@ class SportCrawler:
                         pass
 
             # Csv 작성
-            for csvtimeline, csvheadline, csvcontent, csvpress in zip(timescript,titlescript, completed_content_match, officename_script,hefscript2):
+            for csvtimeline, csvheadline, csvcontent, csvpress, csvurl in zip(timescript,titlescript, completed_content_match, officename_script,hefscript2):
                 try:
                     if not csvtimeline:
                         continue
@@ -148,7 +147,7 @@ class SportCrawler:
                         continue
                     if not csvpress:
                         continue
-                    wcsv.writerow([csvtimeline, self.Clearheadline(csvheadline), csvcontent, csvpress, category])
+                    wcsv.writerow([csvtimeline, self.Clearheadline(csvheadline), csvcontent, csvpress, category,csvurl])
                 except:
                     pass
 
