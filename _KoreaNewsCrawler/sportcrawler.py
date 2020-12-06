@@ -100,8 +100,16 @@ class SportCrawler:
             final_urlday = self.Make_url(url,self.date['startyear'],
                                                 self.date['endyear'], self.date['startmonth'], self.date['endmonth'])
             print("succeed making url")
-            file = open("Sport_" + category + "_"+str(self.date['startyear'])+str(self.date['startmonth'])
-                        +"_"+str(self.date['endyear'])+str(self.date['endmonth'])+".csv", 'w', encoding='euc-kr', newline='')
+            if len(str(self.date['startmonth'])) == 2:
+                startmonth=str(self.date['startmonth'])
+            else:
+                startmonth='0'+str(self.date['startmonth'])
+            if len(str(self.date['endmonth']))==2:
+                endmonth=str(self.date['endmonth'])
+            else:
+                endmonth='0'+str(self.date['endmonth'])
+            file = open("Sport_" + category + "_"+str(self.date['startyear'])+str(startmonth)
+                        +"_"+str(self.date['endyear'])+str(endmonth)+".csv", 'w', encoding='euc-kr', newline='')
             wcsv = csv.writer(file)
             hefscript2=[]
             for list_page in final_urlday:  # Category Year Month Data Page 처리 된 URL
