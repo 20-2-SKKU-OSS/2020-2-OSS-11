@@ -89,18 +89,17 @@ class SportCrawler:
         Category.append(category_name)
         Url_category.append(self.category[category_name])
         titlescript = []
-        hefscript = []
+
         officename_script = []
         completed_content_match = []
-        for url_label in Url_category:  # URL 카테고리
+        for url_label in Url_category:  # URL 카테고리. Multiprocessing시 어차피 1번 도는거라 refactoring할 필요 있어보임
             category = Category[Url_category.index(url_label)]  # URL 인덱스와 Category 인덱스가 일치할 경우 그 값도 일치
             url = "https://sports.news.naver.com/" + url_label + "/news/list.nhn?isphoto=N&view=photo&date="
-            final_urlday = ""
             final_urlday = self.Make_url(url,self.date['startyear'],
-                                                self.date['endyear'], self.date['startmonth'], self.date['endmonth'])  # 2017년 1월 ~ 2017년 2월 마지막 날까지 기사를 수집합니다.
+                                                self.date['endyear'], self.date['startmonth'], self.date['endmonth'])
             print("succeed making url")
-
-            file = open("Sport_" + category + ".csv", 'w', encoding='euc-kr', newline='')
+            file = open("Sport_" + category + "_"+str(self.date['startyear'])+str(self.date['startmonth'])
+                        +"_"+str(self.date['endyear'])+str(self.date['endmonth'])+".csv", 'w', encoding='euc-kr', newline='')
             wcsv = csv.writer(file)
 
             for list_page in final_urlday:  # Category Year Month Data Page 처리 된 URL
@@ -108,7 +107,7 @@ class SportCrawler:
                 request_content = requests.get(list_page, headers={'User-Agent': 'Mozilla/5.0'})
                 content_dict = json.loads(request_content.text)
                 print("now for..",list_page)
-
+                hefscript = []
                 for contents in content_dict["list"]:
                     oid = contents['oid']
                     aid = contents['aid']
@@ -128,17 +127,17 @@ class SportCrawler:
                 # 추가적으로 pass_match에 언론사를 집어넣으면 된다.
 
                 for content_page in hefscript:
+
                     sleep(0.01)
                     content_request_content = requests.get(content_page, headers={'User-Agent': 'Mozilla/5.0'})
                     content_document_content = BeautifulSoup(content_request_content.content, 'html.parser')
                     content_Tag_content = content_document_content.find_all('div', {'class': 'news_end'},
                                                                             {'id': 'newsEndContents'})
-
                     text_sentence = ''  # 뉴스 기사 본문 내용 초기화
 
                     try:
                         text_sentence = text_sentence + str(content_Tag_content[0].find_all(text=True))
-                        completed_content_match.append(Spt_crawler.Clearcontent(text_sentence))
+                        completed_content_match.append(self.Clearcontent(text_sentence))
                     except:
                         pass
                 """
@@ -151,18 +150,18 @@ class SportCrawler:
                 print(pass_match)
                 """
 
-         # Csv 작성
-        for csvheadline, csvcontent, csvpress in zip(titlescript, completed_content_match, officename_script):
-            try:
-                if not csvheadline:
-                    continue
-                if not csvcontent:
-                    continue
-                if not csvpress:
-                    continue
-                wcsv.writerow([Spt_crawler.Clearheadline(csvheadline), csvcontent, csvpress, category])
-            except:
-                pass
+            # Csv 작성
+            for csvheadline, csvcontent, csvpress in zip(titlescript, completed_content_match, officename_script):
+                try:
+                    if not csvheadline:
+                        continue
+                    if not csvcontent:
+                        continue
+                    if not csvpress:
+                        continue
+                    wcsv.writerow([self.Clearheadline(csvheadline), csvcontent, csvpress, category])
+                except:
+                    pass
 
             file.close()
 
@@ -188,88 +187,6 @@ class SportCrawler:
 # Main
 if __name__ == "__main__":
     Spt_crawler = SportCrawler()
-    Spt_crawler.set_category('야구')
-    Spt_crawler.set_date_range(2020,12,2020,12)
-    Spt_crawler.start()
-
-"""
-    Spt_crawler=SportCrawler()
     Spt_crawler.set_category('야구','축구')
-    Url_category = Spt_crawler.selected_urlcategory
-    Category = Spt_crawler.selected_category
-    titlescript = []
-    hefscript = []
-    officename_script = []
-    completed_content_match = []
-    for url_label in Url_category:  # URL 카테고리
-        category = Category[Url_category.index(url_label)]  # URL 인덱스와 Category 인덱스가 일치할 경우 그 값도 일치
-        url = "https://sports.news.naver.com/" + url_label + "/news/list.nhn?isphoto=N&view=photo&date="
-        final_urlday = ""
-        final_urlday = Spt_crawler.Make_url(url, 2017, 2017, 1, 2)  # 2017년 1월 ~ 2017년 2월 마지막 날까지 기사를 수집합니다.
-        print("succeed making url")
-
-        file = open("Sport_" + category + ".csv", 'w', encoding='euc-kr', newline='')
-        wcsv = csv.writer(file)
-
-        for list_page in final_urlday:  # Category Year Month Data Page 처리 된 URL
-            # 제목 / URL
-            request_content = requests.get(list_page,headers={'User-Agent':'Mozilla/5.0'})
-            content_dict=json.loads(request_content.text)
-
-            for contents in content_dict["list"]:
-                oid = contents['oid']
-                aid = contents['aid']
-                titlescript.append(contents['title'])
-                hefscript.append("https://sports.news.naver.com/news.nhn?oid="+oid+"&aid="+aid)
-                officename_script.append(contents['officeName'])
-
-            document_content = BeautifulSoup(request_content.content, 'html.parser')  # 기사 목록을 보여주는 페이지
-            # 제목
-            Tag = document_content.find_all('script', {'type': 'text/javascript'})
-            Tag_ = re.sub('subContent', 'subContent\n', str(Tag))  # "officeName":"인벤","title"
-            regex = re.compile('title":"(?P<str>.+)","subContent')
-            headline_match = regex.findall(Tag_)
-
-            # 본문
-            # content page 기반하여 본문을 하면 된다. text_sentence에 본문을 넣고 Clearcontent진행 후 completed_conten_match에 append해주면 된다.
-            # 추가적으로 pass_match에 언론사를 집어넣으면 된다.
-
-            for content_page in hefscript:
-                sleep(0.01)
-                content_request_content = requests.get(content_page,headers={'User-Agent':'Mozilla/5.0'})
-                content_document_content = BeautifulSoup(content_request_content.content, 'html.parser')
-                content_Tag_content = content_document_content.find_all('div', {'class': 'news_end'},
-                                                                        {'id': 'newsEndContents'})
-
-                text_sentence = ''  # 뉴스 기사 본문 내용 초기화
-
-                try:
-                    text_sentence = text_sentence + str(content_Tag_content[0].find_all(text=True))
-                    completed_content_match.append(Spt_crawler.Clearcontent(text_sentence))
-                except:
-                    pass
-
-            # 언론사
-            document_content = BeautifulSoup(request_content.content, 'html.parser')  # 기사 목록을 보여주는 페이지
-            Tag = document_content.find_all('script', {'type': 'text/javascript'})
-            Tag_ = re.sub('title', 'title\n', str(Tag))  # "officeName":"인벤","title"
-            regex = re.compile('officeName":"(?P<str>.+)","title')
-            pass_match = regex.findall(Tag_)
-            print(pass_match)
-
-
-            # Csv 작성
-    for csvheadline, csvcontent, csvpress in zip(titlescript, completed_content_match, officename_script):
-        try:
-            if not csvheadline:
-                continue
-            if not csvcontent:
-                continue
-            if not csvpress:
-                continue
-            wcsv.writerow([Spt_crawler.Clearheadline(csvheadline), csvcontent, csvpress, category])
-        except:
-            pass
-
-        file.close()
-"""
+    Spt_crawler.set_date_range(2017,12,2017,12)
+    Spt_crawler.start()
