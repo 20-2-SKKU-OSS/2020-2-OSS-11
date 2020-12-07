@@ -8,11 +8,71 @@
     
       
       <item>
+        <title>Pull Request2 about Issue2</title>
+        
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;PULL_REQUEST 탭은 다음과 같이 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./pullrequest-introduction&quot;&gt;Pull Request Introduction&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./pullrequest1&quot;&gt;Pull Request1 about Issue1&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./pullrequest2&quot;&gt;Pull Request2 about Issue2&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Mon, 07 Dec 2020 00:00:00 +0900</pubDate>
+        <link>
+        https://20-2-skku-oss.github.io/pullrequest2</link>
+        <guid isPermaLink="true">https://20-2-skku-oss.github.io/pullrequest2</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Pull Request1 about Issue1</title>
+        
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;PULL_REQUEST 탭은 다음과 같이 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./pullrequest-introduction&quot;&gt;Pull Request Introduction&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./pullrequest1&quot;&gt;Pull Request1 about Issue1&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./pullrequest2&quot;&gt;Pull Request2 about Issue2&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Mon, 07 Dec 2020 00:00:00 +0900</pubDate>
+        <link>
+        https://20-2-skku-oss.github.io/pullrequest1</link>
+        <guid isPermaLink="true">https://20-2-skku-oss.github.io/pullrequest1</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Pull Request Introduction</title>
+        
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;PULL_REQUEST 탭은 다음과 같이 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./pullrequest-introduction&quot;&gt;Pull Request Introduction&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./pullrequest1&quot;&gt;Pull Request1 about Issue1&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./pullrequest2&quot;&gt;Pull Request2 about Issue2&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Mon, 07 Dec 2020 00:00:00 +0900</pubDate>
+        <link>
+        https://20-2-skku-oss.github.io/pullrequest-introduction</link>
+        <guid isPermaLink="true">https://20-2-skku-oss.github.io/pullrequest-introduction</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>Issue3</title>
         
-          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Issue 탭은 다음과 같이 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;ISSUE 탭은 다음과 같이 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./introduction&quot;&gt;Issue Introduction&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./issue-introduction&quot;&gt;Issue Introduction&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./issue1&quot;&gt;Issue1&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./issue2&quot;&gt;Issue2&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./issue3&quot;&gt;Issue3&lt;/a&gt;&lt;/li&gt;
@@ -31,9 +91,9 @@
       <item>
         <title>Issue2</title>
         
-          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Issue 탭은 다음과 같이 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;ISSUE 탭은 다음과 같이 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./introduction&quot;&gt;Issue Introduction&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./issue-introduction&quot;&gt;Issue Introduction&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./issue1&quot;&gt;Issue1&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./issue2&quot;&gt;Issue2&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./issue3&quot;&gt;Issue3&lt;/a&gt;&lt;/li&gt;
@@ -52,9 +112,9 @@
       <item>
         <title>Issue1</title>
         
-          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Issue 탭은 다음과 같이 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;ISSUE 탭은 다음과 같이 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./introduction&quot;&gt;Issue Introduction&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./issue-introduction&quot;&gt;Issue Introduction&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./issue1&quot;&gt;Issue1&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./issue2&quot;&gt;Issue2&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./issue3&quot;&gt;Issue3&lt;/a&gt;&lt;/li&gt;
@@ -73,9 +133,9 @@
       <item>
         <title>Issue Introduction</title>
         
-          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Issue 탭은 다음과 같이 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;ISSUE 탭은 다음과 같이 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./introduction&quot;&gt;Issue Introduction&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./issue-introduction&quot;&gt;Issue Introduction&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./issue1&quot;&gt;Issue1&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./issue2&quot;&gt;Issue2&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./issue3&quot;&gt;Issue3&lt;/a&gt;&lt;/li&gt;
@@ -85,8 +145,8 @@
         
         <pubDate>Mon, 07 Dec 2020 00:00:00 +0900</pubDate>
         <link>
-        https://20-2-skku-oss.github.io/introduction</link>
-        <guid isPermaLink="true">https://20-2-skku-oss.github.io/introduction</guid>
+        https://20-2-skku-oss.github.io/issue-introduction</link>
+        <guid isPermaLink="true">https://20-2-skku-oss.github.io/issue-introduction</guid>
       </item>
       
     

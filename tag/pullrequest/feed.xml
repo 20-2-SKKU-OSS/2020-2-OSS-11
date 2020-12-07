@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" >
+  <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
+  <link href="https://20-2-skku-oss.github.io/2020-2-OSS-11/tag/pullrequest/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="https://20-2-skku-oss.github.io/2020-2-OSS-11/" rel="alternate" type="text/html" />
+  <updated>2020-12-07T14:24:28+09:00</updated>
+  <id>https://20-2-skku-oss.github.io/2020-2-OSS-11/tag/pullrequest/feed.xml</id>
+
+  
+  
+  
+
+  
+    <title type="html">Korea News Crawling | </title>
+  
+
+  
+    <subtitle>2020-2-OSS-11</subtitle>
+  
+
+  
+
+  
+    
+      
+    
+  
+
+  
+  
+
+  
+    <entry>
+      <title type="html">Pull Request1 about Issue1</title>
+      <link href="https://20-2-skku-oss.github.io/2020-2-OSS-11/pullrequest1" rel="alternate" type="text/html" title="Pull Request1 about Issue1" />
+      <published>2020-12-07T00:00:00+09:00</published>
+      <updated>2020-12-07T00:00:00+09:00</updated>
+      <id>https://20-2-skku-oss.github.io/2020-2-OSS-11/pullrequest1</id>
+      <content type="html" xml:base="https://20-2-skku-oss.github.io/2020-2-OSS-11/pullrequest1">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;PULL_REQUEST 탭은 다음과 같이 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./pullrequest-introduction&quot;&gt;Pull Request Introduction&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./pullrequest1&quot;&gt;Pull Request1 about Issue1&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./pullrequest2&quot;&gt;Pull Request2 about Issue2&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Issu1에 대한 Pull Request입니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;./assets/built/images/pullrequest1.png&quot; alt=&quot;ex_screenshot&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;보다 자세한 사항은 &lt;a href=&quot;https://github.com/lumyjuwon/KoreaNewsCrawler/pull/15&quot;&gt;Pull Rquest 링크&lt;/a&gt;에서 
+확인하실 수 있습니다.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>KimHyeonHo</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="pullrequest" />
+      
+
+      
+        <summary type="html">PULL_REQUEST 탭은 다음과 같이 구성되어 있습니다. Pull Request Introduction Pull Request1 about Issue1 Pull Request2 about Issue2</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Pull Request Introduction</title>
+      <link href="https://20-2-skku-oss.github.io/2020-2-OSS-11/pullrequest-introduction" rel="alternate" type="text/html" title="Pull Request Introduction" />
+      <published>2020-12-07T00:00:00+09:00</published>
+      <updated>2020-12-07T00:00:00+09:00</updated>
+      <id>https://20-2-skku-oss.github.io/2020-2-OSS-11/pullrequest-introduction</id>
+      <content type="html" xml:base="https://20-2-skku-oss.github.io/2020-2-OSS-11/pullrequest-introduction">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;PULL_REQUEST 탭은 다음과 같이 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./pullrequest-introduction&quot;&gt;Pull Request Introduction&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./pullrequest1&quot;&gt;Pull Request1 about Issue1&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./pullrequest2&quot;&gt;Pull Request2 about Issue2&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;상단의 ISSUE 탭을 보시면, 3가지 Issue가 있는 것을 
+확인하실 수가 있습니다. 하지만 Issue3의 경우, &lt;a href=&quot;https://github.com/lumyjuwon/KoreaNewsCrawler&quot;&gt;lumyjuwon님의 github&lt;/a&gt;의 
+문제라기보다 개인의 문제라고 판단하였고, 본 프로젝트에서는 해당 이슈를 다루지 않았습니다. 따라서 본 프로젝트는 Issue1과 Issue2에 대하여 
+진행하였고, 그에 따라 2개의 Pull Request를 진행하였습니다.&lt;/p&gt;
+
+&lt;p&gt;Issue1과 Issue2에 대한 문제를 해결하였고, lumyjuwon님에게 이메일을 보낸 결과,&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;./assets/built/images/pullrequestintroduction1.png&quot; alt=&quot;ex_screenshot&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Pull Request를 해달라는 요청을 받았고, 현재 Merge를 기다리고 있는 상황입니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;./assets/built/images/pullrequestintroduction2.png&quot; alt=&quot;ex_screenshot&quot; /&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>KimHyeonHo</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="pullrequest" />
+      
+
+      
+        <summary type="html">PULL_REQUEST 탭은 다음과 같이 구성되어 있습니다. Pull Request Introduction Pull Request1 about Issue1 Pull Request2 about Issue2</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Pull Request2 about Issue2</title>
+      <link href="https://20-2-skku-oss.github.io/2020-2-OSS-11/pullrequest2" rel="alternate" type="text/html" title="Pull Request2 about Issue2" />
+      <published>2020-12-07T00:00:00+09:00</published>
+      <updated>2020-12-07T00:00:00+09:00</updated>
+      <id>https://20-2-skku-oss.github.io/2020-2-OSS-11/pullrequest2</id>
+      <content type="html" xml:base="https://20-2-skku-oss.github.io/2020-2-OSS-11/pullrequest2">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;PULL_REQUEST 탭은 다음과 같이 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./pullrequest-introduction&quot;&gt;Pull Request Introduction&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./pullrequest1&quot;&gt;Pull Request1 about Issue1&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./pullrequest2&quot;&gt;Pull Request2 about Issue2&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Issu2에 대한 Pull Request입니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;./assets/built/images/pullrequest2.png&quot; alt=&quot;ex_screenshot&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;보다 자세한 사항은 &lt;a href=&quot;https://github.com/lumyjuwon/KoreaNewsCrawler/pull/15&quot;&gt;Pull Rquest 링크&lt;/a&gt;에서 
+확인하실 수 있습니다.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>KimHyeonHo</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="pullrequest" />
+      
+
+      
+        <summary type="html">PULL_REQUEST 탭은 다음과 같이 구성되어 있습니다. Pull Request Introduction Pull Request1 about Issue1 Pull Request2 about Issue2</summary>
+      
+
+      
+      
+    </entry>
+  
+</feed>

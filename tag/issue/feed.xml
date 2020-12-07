@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="https://20-2-skku-oss.github.io/2020-2-OSS-11/tag/issue/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://20-2-skku-oss.github.io/2020-2-OSS-11/" rel="alternate" type="text/html" />
-  <updated>2020-12-07T12:36:11+09:00</updated>
+  <updated>2020-12-07T14:24:28+09:00</updated>
   <id>https://20-2-skku-oss.github.io/2020-2-OSS-11/tag/issue/feed.xml</id>
 
   
@@ -37,9 +37,9 @@
       <published>2020-12-07T00:00:00+09:00</published>
       <updated>2020-12-07T00:00:00+09:00</updated>
       <id>https://20-2-skku-oss.github.io/2020-2-OSS-11/issue2</id>
-      <content type="html" xml:base="https://20-2-skku-oss.github.io/2020-2-OSS-11/issue2">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Issue 탭은 다음과 같이 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
+      <content type="html" xml:base="https://20-2-skku-oss.github.io/2020-2-OSS-11/issue2">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;ISSUE 탭은 다음과 같이 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./introduction&quot;&gt;Issue Introduction&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./issue-introduction&quot;&gt;Issue Introduction&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./issue1&quot;&gt;Issue1&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./issue2&quot;&gt;Issue2&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./issue3&quot;&gt;Issue3&lt;/a&gt;&lt;/li&gt;
@@ -69,7 +69,7 @@
       
 
       
-        <summary type="html">Issue 탭은 다음과 같이 구성되어 있습니다. Issue Introduction Issue1 Issue2 Issue3</summary>
+        <summary type="html">ISSUE 탭은 다음과 같이 구성되어 있습니다. Issue Introduction Issue1 Issue2 Issue3</summary>
       
 
       
@@ -82,9 +82,9 @@
       <published>2020-12-07T00:00:00+09:00</published>
       <updated>2020-12-07T00:00:00+09:00</updated>
       <id>https://20-2-skku-oss.github.io/2020-2-OSS-11/issue1</id>
-      <content type="html" xml:base="https://20-2-skku-oss.github.io/2020-2-OSS-11/issue1">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Issue 탭은 다음과 같이 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
+      <content type="html" xml:base="https://20-2-skku-oss.github.io/2020-2-OSS-11/issue1">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;ISSUE 탭은 다음과 같이 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./introduction&quot;&gt;Issue Introduction&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./issue-introduction&quot;&gt;Issue Introduction&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./issue1&quot;&gt;Issue1&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./issue2&quot;&gt;Issue2&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./issue3&quot;&gt;Issue3&lt;/a&gt;&lt;/li&gt;
@@ -113,7 +113,7 @@
       
 
       
-        <summary type="html">Issue 탭은 다음과 같이 구성되어 있습니다. Issue Introduction Issue1 Issue2 Issue3</summary>
+        <summary type="html">ISSUE 탭은 다음과 같이 구성되어 있습니다. Issue Introduction Issue1 Issue2 Issue3</summary>
       
 
       
@@ -122,13 +122,13 @@
   
     <entry>
       <title type="html">Issue Introduction</title>
-      <link href="https://20-2-skku-oss.github.io/2020-2-OSS-11/introduction" rel="alternate" type="text/html" title="Issue Introduction" />
+      <link href="https://20-2-skku-oss.github.io/2020-2-OSS-11/issue-introduction" rel="alternate" type="text/html" title="Issue Introduction" />
       <published>2020-12-07T00:00:00+09:00</published>
       <updated>2020-12-07T00:00:00+09:00</updated>
-      <id>https://20-2-skku-oss.github.io/2020-2-OSS-11/introduction</id>
-      <content type="html" xml:base="https://20-2-skku-oss.github.io/2020-2-OSS-11/introduction">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Issue 탭은 다음과 같이 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
+      <id>https://20-2-skku-oss.github.io/2020-2-OSS-11/issue-introduction</id>
+      <content type="html" xml:base="https://20-2-skku-oss.github.io/2020-2-OSS-11/issue-introduction">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;ISSUE 탭은 다음과 같이 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./introduction&quot;&gt;Issue Introduction&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./issue-introduction&quot;&gt;Issue Introduction&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./issue1&quot;&gt;Issue1&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./issue2&quot;&gt;Issue2&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./issue3&quot;&gt;Issue3&lt;/a&gt;&lt;/li&gt;
@@ -156,7 +156,7 @@
       
 
       
-        <summary type="html">Issue 탭은 다음과 같이 구성되어 있습니다. Issue Introduction Issue1 Issue2 Issue3</summary>
+        <summary type="html">ISSUE 탭은 다음과 같이 구성되어 있습니다. Issue Introduction Issue1 Issue2 Issue3</summary>
       
 
       
@@ -169,9 +169,9 @@
       <published>2020-12-07T00:00:00+09:00</published>
       <updated>2020-12-07T00:00:00+09:00</updated>
       <id>https://20-2-skku-oss.github.io/2020-2-OSS-11/issue3</id>
-      <content type="html" xml:base="https://20-2-skku-oss.github.io/2020-2-OSS-11/issue3">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Issue 탭은 다음과 같이 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
+      <content type="html" xml:base="https://20-2-skku-oss.github.io/2020-2-OSS-11/issue3">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;ISSUE 탭은 다음과 같이 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./introduction&quot;&gt;Issue Introduction&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./issue-introduction&quot;&gt;Issue Introduction&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./issue1&quot;&gt;Issue1&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./issue2&quot;&gt;Issue2&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./issue3&quot;&gt;Issue3&lt;/a&gt;&lt;/li&gt;
@@ -201,7 +201,7 @@
       
 
       
-        <summary type="html">Issue 탭은 다음과 같이 구성되어 있습니다. Issue Introduction Issue1 Issue2 Issue3</summary>
+        <summary type="html">ISSUE 탭은 다음과 같이 구성되어 있습니다. Issue Introduction Issue1 Issue2 Issue3</summary>
       
 
       
