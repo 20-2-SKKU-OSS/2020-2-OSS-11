@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="https://20-2-skku-oss.github.io/2020-2-OSS-11/feed.xml" rel="self" type="application/atom+xml" /><link href="https://20-2-skku-oss.github.io/2020-2-OSS-11/" rel="alternate" type="text/html" /><updated>2020-12-07T21:08:09+09:00</updated><id>https://20-2-skku-oss.github.io/2020-2-OSS-11/</id><title type="html">Korea News Crawling</title><subtitle>2020-2-OSS-11</subtitle><entry><title type="html">Static Page Contents</title><link href="https://20-2-skku-oss.github.io/2020-2-OSS-11/staticpagecontents" rel="alternate" type="text/html" title="Static Page Contents" /><published>2020-12-07T00:00:00+09:00</published><updated>2020-12-07T00:00:00+09:00</updated><id>https://20-2-skku-oss.github.io/2020-2-OSS-11/staticpagecontents</id><content type="html" xml:base="https://20-2-skku-oss.github.io/2020-2-OSS-11/staticpagecontents">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;STATIC_PAGE 탭은 다음과 같이 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="https://20-2-skku-oss.github.io/2020-2-OSS-11/feed.xml" rel="self" type="application/atom+xml" /><link href="https://20-2-skku-oss.github.io/2020-2-OSS-11/" rel="alternate" type="text/html" /><updated>2020-12-07T21:19:26+09:00</updated><id>https://20-2-skku-oss.github.io/2020-2-OSS-11/</id><title type="html">Korea News Crawling</title><subtitle>2020-2-OSS-11</subtitle><entry><title type="html">Static Page Contents</title><link href="https://20-2-skku-oss.github.io/2020-2-OSS-11/staticpagecontents" rel="alternate" type="text/html" title="Static Page Contents" /><published>2020-12-07T00:00:00+09:00</published><updated>2020-12-07T00:00:00+09:00</updated><id>https://20-2-skku-oss.github.io/2020-2-OSS-11/staticpagecontents</id><content type="html" xml:base="https://20-2-skku-oss.github.io/2020-2-OSS-11/staticpagecontents">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;STATIC_PAGE 탭은 다음과 같이 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./staticpage-introduction&quot;&gt;Static Page Introduction&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./csscustomizing&quot;&gt;CSS Customizing&lt;/a&gt;&lt;/li&gt;
@@ -10,14 +10,14 @@
 &lt;ul&gt;
   &lt;li&gt;&lt;strong&gt;가독성&lt;/strong&gt;&lt;br /&gt;
 하이퍼링크에는 밑줄이, 파일들에는 이탤릭체, 목록의 제목에는 볼드를 적용하여 가독성을 높였고, 
-포스트 간의 이동을 자유롭게 하기 위해 각 포스트 상단에 목차를 제공하였습니다.&lt;/li&gt;
+포스트 간의 이동을 편하게 하기 위해 각 포스트 상단에 목차를 제공하였습니다.&lt;/li&gt;
   &lt;li&gt;&lt;strong&gt;정확한 정보전달&lt;/strong&gt;&lt;br /&gt;
-프로젝트에서 관심있는 부분을 자세하게 볼 수 있도록 하이퍼링크를 적극 이용하였습니다. 
-하이퍼링크는 텍스트의 길이도 줄여주기 때문에, 가독성도 크게 향상시킵니다.&lt;/li&gt;
+프로젝트에서 관심있는 부분을 자세하게 볼 수 있도록 하이퍼링크를 적극 이용하였습니다.
+하이퍼링크를 이용하여 페이지를 가볍게 만들고, 무분별한 텍스트의 사용을 줄여 가독성을 향상시킵니다.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;이미지&quot;&gt;이미지&lt;/h2&gt;
-&lt;p&gt;하이퍼링크와 더불어, 텍스트를 나열하기 보다는 이미지를 활용하였습니다.&lt;br /&gt;
+&lt;p&gt;하이퍼링크와 더불어, 텍스트를 나열하기 보다는 이미지를 활용하였습니다. 
 자연사진들은 모두 &lt;a href=&quot;https://pixabay.com/ko/&quot;&gt;pixabay&lt;/a&gt;에서 다운 받았습니다.&lt;/p&gt;</content><author><name>KimHyeonHo</name></author><category term="staticpage" /><summary type="html">STATIC_PAGE 탭은 다음과 같이 구성되어 있습니다. Static Page Introduction CSS Customizing Static Page Contents</summary></entry><entry><title type="html">Static Page Introduction</title><link href="https://20-2-skku-oss.github.io/2020-2-OSS-11/staticpage-introduction" rel="alternate" type="text/html" title="Static Page Introduction" /><published>2020-12-07T00:00:00+09:00</published><updated>2020-12-07T00:00:00+09:00</updated><id>https://20-2-skku-oss.github.io/2020-2-OSS-11/staticpage-introduction</id><content type="html" xml:base="https://20-2-skku-oss.github.io/2020-2-OSS-11/staticpage-introduction">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;STATIC_PAGE 탭은 다음과 같이 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./staticpage-introduction&quot;&gt;Static Page Introduction&lt;/a&gt;&lt;/li&gt;
