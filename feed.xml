@@ -1,4 +1,80 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="https://20-2-skku-oss.github.io/2020-2-OSS-11/feed.xml" rel="self" type="application/atom+xml" /><link href="https://20-2-skku-oss.github.io/2020-2-OSS-11/" rel="alternate" type="text/html" /><updated>2020-12-07T14:24:28+09:00</updated><id>https://20-2-skku-oss.github.io/2020-2-OSS-11/</id><title type="html">Korea News Crawling</title><subtitle>2020-2-OSS-11</subtitle><entry><title type="html">Pull Request2 about Issue2</title><link href="https://20-2-skku-oss.github.io/2020-2-OSS-11/pullrequest2" rel="alternate" type="text/html" title="Pull Request2 about Issue2" /><published>2020-12-07T00:00:00+09:00</published><updated>2020-12-07T00:00:00+09:00</updated><id>https://20-2-skku-oss.github.io/2020-2-OSS-11/pullrequest2</id><content type="html" xml:base="https://20-2-skku-oss.github.io/2020-2-OSS-11/pullrequest2">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;PULL_REQUEST 탭은 다음과 같이 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="https://20-2-skku-oss.github.io/2020-2-OSS-11/feed.xml" rel="self" type="application/atom+xml" /><link href="https://20-2-skku-oss.github.io/2020-2-OSS-11/" rel="alternate" type="text/html" /><updated>2020-12-07T16:42:20+09:00</updated><id>https://20-2-skku-oss.github.io/2020-2-OSS-11/</id><title type="html">Korea News Crawling</title><subtitle>2020-2-OSS-11</subtitle><entry><title type="html">Static Page Contents</title><link href="https://20-2-skku-oss.github.io/2020-2-OSS-11/staticpagecontents" rel="alternate" type="text/html" title="Static Page Contents" /><published>2020-12-07T00:00:00+09:00</published><updated>2020-12-07T00:00:00+09:00</updated><id>https://20-2-skku-oss.github.io/2020-2-OSS-11/staticpagecontents</id><content type="html" xml:base="https://20-2-skku-oss.github.io/2020-2-OSS-11/staticpagecontents">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;STATIC_PAGE 탭은 다음과 같이 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./staticpage-introduction&quot;&gt;Static Page Introduction&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./csscustomizing&quot;&gt;CSS Customizing&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./staticpagecontents&quot;&gt;Static Page Contents&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;포스트&quot;&gt;포스트&lt;/h2&gt;
+&lt;p&gt;포스트에서 가장 중요한 것은 ‘가독성’과 ‘정확한 정보전달’이라고 생각하였습니다.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;가독성&lt;br /&gt;
+포스트 간의 이동을 자유롭게 하기 위해 각 포스트 상단에 목차를 제공하였습니다.&lt;/li&gt;
+  &lt;li&gt;정확한 정보전달&lt;br /&gt;
+프로젝트에서 관심있는 부분을 자세하게 볼 수 있도록 하이퍼링크를 적극 이용하였습니다. 
+하이퍼링크는 텍스트의 길이도 줄여주기 때문에, 가독성도 크게 향상시킵니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;이미지&quot;&gt;이미지&lt;/h2&gt;
+&lt;p&gt;하이퍼링크와 더불어, 텍스트를 나열하기 보다는 이미지를 활용하였습니다.&lt;br /&gt;
+자연 사진들은 모두 &lt;a href=&quot;https://pixabay.com/ko/&quot;&gt;pixabay&lt;/a&gt;에서 다운 받았습니다.&lt;/p&gt;</content><author><name>KimHyeonHo</name></author><category term="staticpage" /><summary type="html">STATIC_PAGE 탭은 다음과 같이 구성되어 있습니다. Static Page Introduction CSS Customizing Static Page Contents</summary></entry><entry><title type="html">Static Page Introduction</title><link href="https://20-2-skku-oss.github.io/2020-2-OSS-11/staticpage-introduction" rel="alternate" type="text/html" title="Static Page Introduction" /><published>2020-12-07T00:00:00+09:00</published><updated>2020-12-07T00:00:00+09:00</updated><id>https://20-2-skku-oss.github.io/2020-2-OSS-11/staticpage-introduction</id><content type="html" xml:base="https://20-2-skku-oss.github.io/2020-2-OSS-11/staticpage-introduction">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;STATIC_PAGE 탭은 다음과 같이 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./staticpage-introduction&quot;&gt;Static Page Introduction&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./csscustomizing&quot;&gt;CSS Customizing&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./staticpagecontents&quot;&gt;Static Page Contents&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;정적페이지-구성-방법&quot;&gt;정적페이지 구성 방법&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;로컬 페이지&lt;br /&gt;
+Github Pages만 이용해서는 css 커스터마이징을 할 수 없었고, css 커스터마이징을 하기 위해 ‘http://127.0.0.1:4000’에 로컬 페이지를 
+만들어서 홈페이지를 구성하였습니다. 즉시 반영이 되는 걸 볼 수있다는 점도 로컬 페이지의 선택 이유 중 하나입니다.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;./assets/built/images/staticpageintroduction1.png&quot; alt=&quot;ex_screenshot&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Github Pages&lt;br /&gt;
+로컬 페이지를 통해 완성된 페이지를, Github Page의 default branch인&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;./assets/built/images/staticpageintroduction2.png&quot; alt=&quot;ex_screenshot&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/20-2-SKKU-OSS/2020-2-OSS-11/tree/gh-pages&quot;&gt;gh-pages&lt;/a&gt;에 
+ commit, push하는 방법으로 정적페이지를 구성하였습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;./assets/built/images/staticpageintroduction3.png&quot; alt=&quot;ex_screenshot&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;편집-도구-및-jekyll&quot;&gt;편집 도구 및 Jekyll&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;로컬 페이지 편집을 위한 도구로는, 페이지를 생성하기 위해 ‘Ruby’와 ‘bundler’를, css 커스터마이징을 하기 위해 ‘Gulp’를, 
+웹 편집 IDE로는 ‘WebStorm’을 이용 하였습니다. Jekyll Theme으로는 Ghost의 Jekyll 버전인 Jasper2를 이용하였습니다.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>KimHyeonHo</name></author><category term="staticpage" /><summary type="html">STATIC_PAGE 탭은 다음과 같이 구성되어 있습니다. Static Page Introduction CSS Customizing Static Page Contents</summary></entry><entry><title type="html">CSS Customizing</title><link href="https://20-2-skku-oss.github.io/2020-2-OSS-11/csscustomizing" rel="alternate" type="text/html" title="CSS Customizing" /><published>2020-12-07T00:00:00+09:00</published><updated>2020-12-07T00:00:00+09:00</updated><id>https://20-2-skku-oss.github.io/2020-2-OSS-11/csscustomizing</id><content type="html" xml:base="https://20-2-skku-oss.github.io/2020-2-OSS-11/csscustomizing">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;STATIC_PAGE 탭은 다음과 같이 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./staticpage-introduction&quot;&gt;Static Page Introduction&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./csscustomizing&quot;&gt;CSS Customizing&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./staticpagecontents&quot;&gt;Static Page Contents&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;css-customizing&quot;&gt;CSS Customizing&lt;/h2&gt;
+&lt;p&gt;UI를 보기 편하게 만들기위해, custom.css를 편집하고,&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;./assets/built/images/csscustomizing1.png&quot; alt=&quot;ex_screenshot&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;gulp를 이용하여 css customizing을 진행하였습니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;한글-웹폰트-설정&quot;&gt;한글 웹폰트 설정&lt;/h2&gt;
+&lt;p&gt;커스터마이징 이후에도 여전히 한글의 가독성이 떨어졌고, 이를 해결하기 위해 한글폰트를 나눔고딕 폰트로 
+변경하였습니다. 나눔고딕 폰트를 default.html에 추가하고,&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;./assets/built/images/csscustomizing2.png&quot; alt=&quot;ex_screenshot&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;screen.css 파일에 ‘Nanum Gothic’을 추가해줌으로써,&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;./assets/built/images/csscustomizing3.png&quot; alt=&quot;ex_screenshot&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;한글의 가독성을 향상시켰습니다.&lt;/p&gt;</content><author><name>KimHyeonHo</name></author><category term="staticpage" /><summary type="html">STATIC_PAGE 탭은 다음과 같이 구성되어 있습니다. Static Page Introduction CSS Customizing Static Page Contents</summary></entry><entry><title type="html">Pull Request2 about Issue2</title><link href="https://20-2-skku-oss.github.io/2020-2-OSS-11/pullrequest2" rel="alternate" type="text/html" title="Pull Request2 about Issue2" /><published>2020-12-07T00:00:00+09:00</published><updated>2020-12-07T00:00:00+09:00</updated><id>https://20-2-skku-oss.github.io/2020-2-OSS-11/pullrequest2</id><content type="html" xml:base="https://20-2-skku-oss.github.io/2020-2-OSS-11/pullrequest2">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;PULL_REQUEST 탭은 다음과 같이 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./pullrequest-introduction&quot;&gt;Pull Request Introduction&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./pullrequest1&quot;&gt;Pull Request1 about Issue1&lt;/a&gt;&lt;/li&gt;

@@ -8,6 +8,66 @@
     
       
       <item>
+        <title>Static Page Contents</title>
+        
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;STATIC_PAGE 탭은 다음과 같이 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./staticpage-introduction&quot;&gt;Static Page Introduction&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./csscustomizing&quot;&gt;CSS Customizing&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./staticpagecontents&quot;&gt;Static Page Contents&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Mon, 07 Dec 2020 00:00:00 +0900</pubDate>
+        <link>
+        https://20-2-skku-oss.github.io/staticpagecontents</link>
+        <guid isPermaLink="true">https://20-2-skku-oss.github.io/staticpagecontents</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>Static Page Introduction</title>
+        
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;STATIC_PAGE 탭은 다음과 같이 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./staticpage-introduction&quot;&gt;Static Page Introduction&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./csscustomizing&quot;&gt;CSS Customizing&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./staticpagecontents&quot;&gt;Static Page Contents&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Mon, 07 Dec 2020 00:00:00 +0900</pubDate>
+        <link>
+        https://20-2-skku-oss.github.io/staticpage-introduction</link>
+        <guid isPermaLink="true">https://20-2-skku-oss.github.io/staticpage-introduction</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>CSS Customizing</title>
+        
+          <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;STATIC_PAGE 탭은 다음과 같이 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./staticpage-introduction&quot;&gt;Static Page Introduction&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./csscustomizing&quot;&gt;CSS Customizing&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./staticpagecontents&quot;&gt;Static Page Contents&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        
+        <pubDate>Mon, 07 Dec 2020 00:00:00 +0900</pubDate>
+        <link>
+        https://20-2-skku-oss.github.io/csscustomizing</link>
+        <guid isPermaLink="true">https://20-2-skku-oss.github.io/csscustomizing</guid>
+      </item>
+      
+    
+      
+      <item>
         <title>Pull Request2 about Issue2</title>
         
           <description>&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;PULL_REQUEST 탭은 다음과 같이 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
