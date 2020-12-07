@@ -53,7 +53,7 @@
     <meta property="og:site_name" content="Korea News Crawling" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="CSS Customizing" />
-    <meta property="og:description" content="STATIC_PAGE 탭은 다음과 같이 구성되어 있습니다. Static Page Introduction CSS Customizing Static Page Contents CSS Customizing UI를 보기 편하게 만들기위해, custom.css를 편집하고, gulp를 이용하여 css customizing을 진행하였습니다. 한글 웹폰트 설정 커스터마이징 이후에도 여전히 한글의 가독성이 떨어졌고, 이를 해결하기 위해 한글폰트를 나눔고딕 폰트로 변경하였습니다. 나눔고딕 폰트를 default.html에 추가하고, screen.css 파일에 ‘Nanum" />
+    <meta property="og:description" content="STATIC_PAGE 탭은 다음과 같이 구성되어 있습니다. Static Page Introduction CSS Customizing Static Page Contents CSS Customizing UI를 보기 편하게 만들기위해 css customizing을 진행하였습니다. custom.css를 편집하고 gulp를 이용하여 압축을 한 후에, 포스트의 설정을 다루고 있는 default.html에 &lt;!-- custom.css --&gt; &lt;link rel="stylesheet" type="text/css" href="/2020-2-OSS-11/assets/built/custom.css" /&gt; 해당 코드를 삽입하여 css customizing을 완료하였습니다. 한글" />
     <meta property="og:url" content="https://20-2-skku-oss.github.io/2020-2-OSS-11/csscustomizing" />
     <meta property="og:image" content="https://20-2-skku-oss.github.io/2020-2-OSS-11/assets/built/images/picture19.jpg" />
     <meta property="article:publisher" content="https://www.facebook.com/" />
@@ -63,7 +63,7 @@
     <meta property="article:tag" content="Staticpage" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="CSS Customizing" />
-    <meta name="twitter:description" content="STATIC_PAGE 탭은 다음과 같이 구성되어 있습니다. Static Page Introduction CSS Customizing Static Page Contents CSS Customizing UI를 보기 편하게 만들기위해, custom.css를 편집하고, gulp를 이용하여 css customizing을 진행하였습니다. 한글 웹폰트 설정 커스터마이징 이후에도 여전히 한글의 가독성이 떨어졌고, 이를 해결하기 위해 한글폰트를 나눔고딕 폰트로 변경하였습니다. 나눔고딕 폰트를 default.html에 추가하고, screen.css 파일에 ‘Nanum" />
+    <meta name="twitter:description" content="STATIC_PAGE 탭은 다음과 같이 구성되어 있습니다. Static Page Introduction CSS Customizing Static Page Contents CSS Customizing UI를 보기 편하게 만들기위해 css customizing을 진행하였습니다. custom.css를 편집하고 gulp를 이용하여 압축을 한 후에, 포스트의 설정을 다루고 있는 default.html에 &lt;!-- custom.css --&gt; &lt;link rel="stylesheet" type="text/css" href="/2020-2-OSS-11/assets/built/custom.css" /&gt; 해당 코드를 삽입하여 css customizing을 완료하였습니다. 한글" />
     <meta name="twitter:url" content="https://20-2-skku-oss.github.io/2020-2-OSS-11/" />
     <meta name="twitter:image" content="https://20-2-skku-oss.github.io/2020-2-OSS-11/assets/built/images/picture19.jpg" />
     <meta name="twitter:label1" content="Written by" />
@@ -95,7 +95,7 @@
         "@type": "WebPage",
         "@id": "https://20-2-skku-oss.github.io/2020-2-OSS-11/csscustomizing"
     },
-    "description": "STATIC_PAGE 탭은 다음과 같이 구성되어 있습니다. Static Page Introduction CSS Customizing Static Page Contents CSS Customizing UI를 보기 편하게 만들기위해, custom.css를 편집하고, gulp를 이용하여 css customizing을 진행하였습니다. 한글 웹폰트 설정 커스터마이징 이후에도 여전히 한글의 가독성이 떨어졌고, 이를 해결하기 위해 한글폰트를 나눔고딕 폰트로 변경하였습니다. 나눔고딕 폰트를 default.html에 추가하고, screen.css 파일에 ‘Nanum"
+    "description": "STATIC_PAGE 탭은 다음과 같이 구성되어 있습니다. Static Page Introduction CSS Customizing Static Page Contents CSS Customizing UI를 보기 편하게 만들기위해 css customizing을 진행하였습니다. custom.css를 편집하고 gulp를 이용하여 압축을 한 후에, 포스트의 설정을 다루고 있는 default.html에 &lt;!-- custom.css --&gt; &lt;link rel="stylesheet" type="text/css" href="/2020-2-OSS-11/assets/built/custom.css" /&gt; 해당 코드를 삽입하여 css customizing을 완료하였습니다. 한글"
 }
     </script>
 
@@ -195,21 +195,34 @@ into the {body} of the default.hbs template -->
 </ul>
 
 <h2 id="css-customizing">CSS Customizing</h2>
-<p>UI를 보기 편하게 만들기위해, custom.css를 편집하고,</p>
-
-<p><img src="./assets/built/images/csscustomizing1.png" alt="ex_screenshot" /></p>
-
-<p>gulp를 이용하여 css customizing을 진행하였습니다.</p>
+<p>UI를 보기 편하게 만들기위해 css customizing을 진행하였습니다. <em>custom.css</em>를 편집하고 gulp를 이용하여 압축을 한 후에, 포스트의 설정을 
+다루고 있는 <em>default.html</em>에</p>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">&lt;!-- custom.css --&gt;</span>
+    <span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">"stylesheet"</span> <span class="na">type=</span><span class="s">"text/css"</span> <span class="na">href=</span><span class="s">"/2020-2-OSS-11/assets/built/custom.css"</span> <span class="nt">/&gt;</span>
+</code></pre></div></div>
+<p>해당 코드를 삽입하여 css customizing을 완료하였습니다.</p>
 
 <h2 id="한글-웹폰트-설정">한글 웹폰트 설정</h2>
 <p>커스터마이징 이후에도 여전히 한글의 가독성이 떨어졌고, 이를 해결하기 위해 한글폰트를 나눔고딕 폰트로 
-변경하였습니다. 나눔고딕 폰트를 default.html에 추가하고,</p>
+변경하였습니다. 나눔고딕 폰트를 <em>default.html</em>에 추가하고,</p>
 
-<p><img src="./assets/built/images/csscustomizing2.png" alt="ex_screenshot" /></p>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">&lt;!-- 웹폰트 추가 --&gt;</span>
+    <span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">"stylesheet"</span> <span class="na">href=</span><span class="s">"https://fonts.googleapis.com/earlyaccess/nanumgothic.css"</span><span class="nt">&gt;</span>
+</code></pre></div></div>
 
-<p>screen.css 파일에 ‘Nanum Gothic’을 추가해줌으로써,</p>
+<p><em>screen.css</em> 파일에 ‘Nanum Gothic’을 추가해줌으로써,</p>
 
-<p><img src="./assets/built/images/csscustomizing3.png" alt="ex_screenshot" /></p>
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">.post-full-content</span> <span class="p">{</span>
+    <span class="nl">position</span><span class="p">:</span> <span class="nb">relative</span><span class="p">;</span>
+    <span class="nl">margin</span><span class="p">:</span> <span class="m">0</span> <span class="nb">auto</span><span class="p">;</span>
+    <span class="nl">padding</span><span class="p">:</span> <span class="m">70px</span> <span class="m">100px</span> <span class="m">0</span><span class="p">;</span>
+    <span class="nl">min-height</span><span class="p">:</span> <span class="m">230px</span><span class="p">;</span>
+    <span class="nl">font-family</span><span class="p">:</span> <span class="n">Georgia</span><span class="p">,</span> <span class="s2">'Nanum Gothic'</span><span class="p">,</span> <span class="nb">serif</span><span class="p">;</span>
+    <span class="nl">font-size</span><span class="p">:</span> <span class="m">2.2rem</span><span class="p">;</span>
+    <span class="nl">line-height</span><span class="p">:</span> <span class="m">1.6em</span><span class="p">;</span>
+    <span class="nl">background</span><span class="p">:</span> <span class="m">#fff</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
 
 <p>한글의 가독성을 향상시켰습니다.</p>
 

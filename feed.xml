@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="https://20-2-skku-oss.github.io/2020-2-OSS-11/feed.xml" rel="self" type="application/atom+xml" /><link href="https://20-2-skku-oss.github.io/2020-2-OSS-11/" rel="alternate" type="text/html" /><updated>2020-12-07T19:54:19+09:00</updated><id>https://20-2-skku-oss.github.io/2020-2-OSS-11/</id><title type="html">Korea News Crawling</title><subtitle>2020-2-OSS-11</subtitle><entry><title type="html">Static Page Contents</title><link href="https://20-2-skku-oss.github.io/2020-2-OSS-11/staticpagecontents" rel="alternate" type="text/html" title="Static Page Contents" /><published>2020-12-07T00:00:00+09:00</published><updated>2020-12-07T00:00:00+09:00</updated><id>https://20-2-skku-oss.github.io/2020-2-OSS-11/staticpagecontents</id><content type="html" xml:base="https://20-2-skku-oss.github.io/2020-2-OSS-11/staticpagecontents">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;STATIC_PAGE 탭은 다음과 같이 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="https://20-2-skku-oss.github.io/2020-2-OSS-11/feed.xml" rel="self" type="application/atom+xml" /><link href="https://20-2-skku-oss.github.io/2020-2-OSS-11/" rel="alternate" type="text/html" /><updated>2020-12-07T20:48:10+09:00</updated><id>https://20-2-skku-oss.github.io/2020-2-OSS-11/</id><title type="html">Korea News Crawling</title><subtitle>2020-2-OSS-11</subtitle><entry><title type="html">Static Page Contents</title><link href="https://20-2-skku-oss.github.io/2020-2-OSS-11/staticpagecontents" rel="alternate" type="text/html" title="Static Page Contents" /><published>2020-12-07T00:00:00+09:00</published><updated>2020-12-07T00:00:00+09:00</updated><id>https://20-2-skku-oss.github.io/2020-2-OSS-11/staticpagecontents</id><content type="html" xml:base="https://20-2-skku-oss.github.io/2020-2-OSS-11/staticpagecontents">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;STATIC_PAGE 탭은 다음과 같이 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./staticpage-introduction&quot;&gt;Static Page Introduction&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./csscustomizing&quot;&gt;CSS Customizing&lt;/a&gt;&lt;/li&gt;
@@ -9,6 +9,7 @@
 &lt;p&gt;포스트에서 가장 중요한 것은 ‘가독성’과 ‘정확한 정보전달’이라고 생각하였습니다.&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;가독성&lt;br /&gt;
+하이퍼링크에는 밑줄이, 파일들에는 이탤릭체는 사용하여 가독성을 높였고, 
 포스트 간의 이동을 자유롭게 하기 위해 각 포스트 상단에 목차를 제공하였습니다.&lt;/li&gt;
   &lt;li&gt;정확한 정보전달&lt;br /&gt;
 프로젝트에서 관심있는 부분을 자세하게 볼 수 있도록 하이퍼링크를 적극 이용하였습니다. 
@@ -17,7 +18,7 @@
 
 &lt;h2 id=&quot;이미지&quot;&gt;이미지&lt;/h2&gt;
 &lt;p&gt;하이퍼링크와 더불어, 텍스트를 나열하기 보다는 이미지를 활용하였습니다.&lt;br /&gt;
-자연 사진들은 모두 &lt;a href=&quot;https://pixabay.com/ko/&quot;&gt;pixabay&lt;/a&gt;에서 다운 받았습니다.&lt;/p&gt;</content><author><name>KimHyeonHo</name></author><category term="staticpage" /><summary type="html">STATIC_PAGE 탭은 다음과 같이 구성되어 있습니다. Static Page Introduction CSS Customizing Static Page Contents</summary></entry><entry><title type="html">Static Page Introduction</title><link href="https://20-2-skku-oss.github.io/2020-2-OSS-11/staticpage-introduction" rel="alternate" type="text/html" title="Static Page Introduction" /><published>2020-12-07T00:00:00+09:00</published><updated>2020-12-07T00:00:00+09:00</updated><id>https://20-2-skku-oss.github.io/2020-2-OSS-11/staticpage-introduction</id><content type="html" xml:base="https://20-2-skku-oss.github.io/2020-2-OSS-11/staticpage-introduction">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;STATIC_PAGE 탭은 다음과 같이 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
+자연사진들은 모두 &lt;a href=&quot;https://pixabay.com/ko/&quot;&gt;pixabay&lt;/a&gt;에서 다운 받았습니다.&lt;/p&gt;</content><author><name>KimHyeonHo</name></author><category term="staticpage" /><summary type="html">STATIC_PAGE 탭은 다음과 같이 구성되어 있습니다. Static Page Introduction CSS Customizing Static Page Contents</summary></entry><entry><title type="html">Static Page Introduction</title><link href="https://20-2-skku-oss.github.io/2020-2-OSS-11/staticpage-introduction" rel="alternate" type="text/html" title="Static Page Introduction" /><published>2020-12-07T00:00:00+09:00</published><updated>2020-12-07T00:00:00+09:00</updated><id>https://20-2-skku-oss.github.io/2020-2-OSS-11/staticpage-introduction</id><content type="html" xml:base="https://20-2-skku-oss.github.io/2020-2-OSS-11/staticpage-introduction">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;STATIC_PAGE 탭은 다음과 같이 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./staticpage-introduction&quot;&gt;Static Page Introduction&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./csscustomizing&quot;&gt;CSS Customizing&lt;/a&gt;&lt;/li&gt;
@@ -27,7 +28,8 @@
 &lt;h2 id=&quot;정적페이지-구성-방법&quot;&gt;정적페이지 구성 방법&lt;/h2&gt;
 &lt;ul&gt;
   &lt;li&gt;로컬 페이지&lt;br /&gt;
-Github Pages만 이용해서는 css 커스터마이징을 할 수 없었고, css 커스터마이징을 하기 위해 ‘http://127.0.0.1:4000’에 로컬 페이지를 
+Github Pages만 이용해서는 css 커스터마이징을 할 수 없었고, css 커스터마이징을 하기 위해 
+‘https://20-2-skku-oss.github.io/2020-2-OSS-11/’에 로컬 페이지를 
 만들어서 홈페이지를 구성하였습니다. 즉시 반영이 되는 걸 볼 수있다는 점도 로컬 페이지의 선택 이유 중 하나입니다.&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -58,21 +60,34 @@ Github Pages만 이용해서는 css 커스터마이징을 할 수 없었고, css
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;css-customizing&quot;&gt;CSS Customizing&lt;/h2&gt;
-&lt;p&gt;UI를 보기 편하게 만들기위해, custom.css를 편집하고,&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;./assets/built/images/csscustomizing1.png&quot; alt=&quot;ex_screenshot&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;gulp를 이용하여 css customizing을 진행하였습니다.&lt;/p&gt;
+&lt;p&gt;UI를 보기 편하게 만들기위해 css customizing을 진행하였습니다. &lt;em&gt;custom.css&lt;/em&gt;를 편집하고 gulp를 이용하여 압축을 한 후에, 포스트의 설정을 
+다루고 있는 &lt;em&gt;default.html&lt;/em&gt;에&lt;/p&gt;
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;&amp;lt;!-- custom.css --&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;link&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;rel=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;stylesheet&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;text/css&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/2020-2-OSS-11/assets/built/custom.css&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;해당 코드를 삽입하여 css customizing을 완료하였습니다.&lt;/p&gt;
 
 &lt;h2 id=&quot;한글-웹폰트-설정&quot;&gt;한글 웹폰트 설정&lt;/h2&gt;
 &lt;p&gt;커스터마이징 이후에도 여전히 한글의 가독성이 떨어졌고, 이를 해결하기 위해 한글폰트를 나눔고딕 폰트로 
-변경하였습니다. 나눔고딕 폰트를 default.html에 추가하고,&lt;/p&gt;
+변경하였습니다. 나눔고딕 폰트를 &lt;em&gt;default.html&lt;/em&gt;에 추가하고,&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;./assets/built/images/csscustomizing2.png&quot; alt=&quot;ex_screenshot&quot; /&gt;&lt;/p&gt;
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;&amp;lt;!-- 웹폰트 추가 --&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;link&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;rel=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;stylesheet&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;https://fonts.googleapis.com/earlyaccess/nanumgothic.css&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;screen.css 파일에 ‘Nanum Gothic’을 추가해줌으로써,&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;screen.css&lt;/em&gt; 파일에 ‘Nanum Gothic’을 추가해줌으로써,&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;./assets/built/images/csscustomizing3.png&quot; alt=&quot;ex_screenshot&quot; /&gt;&lt;/p&gt;
+&lt;div class=&quot;language-css highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nc&quot;&gt;.post-full-content&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;position&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;relative&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;margin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;auto&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;padding&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;70px&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;100px&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;min-height&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;230px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;font-family&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Georgia&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;'Nanum Gothic'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;serif&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;2.2rem&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;line-height&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;1.6em&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;background&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;#fff&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;한글의 가독성을 향상시켰습니다.&lt;/p&gt;</content><author><name>KimHyeonHo</name></author><category term="staticpage" /><summary type="html">STATIC_PAGE 탭은 다음과 같이 구성되어 있습니다. Static Page Introduction CSS Customizing Static Page Contents</summary></entry><entry><title type="html">Pull Request2 about Issue2</title><link href="https://20-2-skku-oss.github.io/2020-2-OSS-11/pullrequest2" rel="alternate" type="text/html" title="Pull Request2 about Issue2" /><published>2020-12-07T00:00:00+09:00</published><updated>2020-12-07T00:00:00+09:00</updated><id>https://20-2-skku-oss.github.io/2020-2-OSS-11/pullrequest2</id><content type="html" xml:base="https://20-2-skku-oss.github.io/2020-2-OSS-11/pullrequest2">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;PULL_REQUEST 탭은 다음과 같이 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
@@ -87,11 +102,11 @@ Github Pages만 이용해서는 css 커스터마이징을 할 수 없었고, css
 
 &lt;h2 id=&quot;구현&quot;&gt;구현&lt;/h2&gt;
 &lt;p&gt;앞선 포스트에서 보셨다시피, 스포츠 기사와 다른 기사들의 크롤링 방식이 다르기 때문에, 각각 코드를 수정하여 해결하였습니다. 일반 기사에서는 
-‘re.findall을 html’에 적용하여 시간을 구했고, 스포츠 기사에서는 ‘naver database listpage’에서 ‘dict’형식의 컨텐츠를 긁어와 시간을 
+‘re.findall’을 html에 적용하여 시간을 구했고, 스포츠 기사에서는 naver database listpage에서 dict형식의 컨텐츠를 긁어와 시간을 
 구했습니다.&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Articlecrawler.py&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Articlecrawler.py&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;#기사 시간대 가져옴&lt;/span&gt;
@@ -103,7 +118,7 @@ Github Pages만 이용해서는 css 커스터마이징을 할 수 없었고, css
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Sportscrawler.py&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Sportscrawler.py&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;contents&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;content_dict&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;list&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]:&lt;/span&gt;
@@ -142,7 +157,7 @@ Github Pages만 이용해서는 css 커스터마이징을 할 수 없었고, css
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;request_content&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;requests&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;totalpage_url&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;timeout&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;headers&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'User-Agent'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'Mozilla/5.0'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;})&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;모든 requests.get 함수에 header 옵션을 추가함으로써 문제를 해결하였고, 이 또한 Issu1에 대한 Pull Request에 포함되어 있습니다.&lt;/p&gt;
+&lt;p&gt;모든 ‘requests.get’ 함수에 header 옵션을 추가함으로써 문제를 해결하였고, 이 또한 Issue1에 대한 Pull Request에 포함되어 있습니다.&lt;/p&gt;
 
 &lt;h2 id=&quot;issu1에-대한-pull-request&quot;&gt;Issu1에 대한 Pull Request&lt;/h2&gt;
 
@@ -151,8 +166,8 @@ Github Pages만 이용해서는 css 커스터마이징을 할 수 없었고, css
 &lt;h2 id=&quot;구현&quot;&gt;구현&lt;/h2&gt;
 
 &lt;p&gt;기존의 크롤러와 url구성과 크롤링 방식이 다르다보니, 대부분의 코드를 새로 짜야 했습니다.
-아래의 set_category와 set_date_range함수는 기존의 articlecrawler와 사용 방식을 비슷하게 하기 위해서 
-만들었고, start 함수는 multiprocessing을 지원하기 위해 만들었습니다.&lt;/p&gt;
+아래의 ‘set_category’와 ‘set_date_range’함수는 기존의 &lt;em&gt;articlecrawler.py&lt;/em&gt;와 사용 방식을 비슷하게 하기 위해서 
+만들었고, ‘start’ 함수는 multiprocessing을 지원하기 위해 만들었습니다.&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;crawling&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;category_name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;Url_category&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[]&lt;/span&gt;
@@ -317,5 +332,5 @@ Github Pages만 이용해서는 css 커스터마이징을 할 수 없었고, css
     &lt;li&gt;&lt;a href=&quot;./issue3&quot;&gt;Issue3&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://github.com/lumyjuwon/KoreaNewsCrawler&quot;&gt;lumyjuwon님의 github&lt;/a&gt;의 ‘READ.md’와 ‘Issues’ 탭을 
+&lt;p&gt;&lt;a href=&quot;https://github.com/lumyjuwon/KoreaNewsCrawler&quot;&gt;lumyjuwon님의 github&lt;/a&gt;의 &lt;em&gt;READ.md&lt;/em&gt;와 ‘Issues’ 탭을 
 확인하여, 총 3가지의 issue들을 찾아낼 수 있었습니다.&lt;/p&gt;</content><author><name>KimHyeonHo</name></author><category term="issue" /><summary type="html">ISSUE 탭은 다음과 같이 구성되어 있습니다. Issue Introduction Issue1 Issue2 Issue3</summary></entry></feed>

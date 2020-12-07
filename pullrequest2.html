@@ -53,7 +53,7 @@
     <meta property="og:site_name" content="Korea News Crawling" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Pull Request2 about Issue2" />
-    <meta property="og:description" content="PULL_REQUEST 탭은 다음과 같이 구성되어 있습니다. Pull Request Introduction Pull Request1 about Issue1 Pull Request2 about Issue2 Issu2에 대한 Pull Request 구현 앞선 포스트에서 보셨다시피, 스포츠 기사와 다른 기사들의 크롤링 방식이 다르기 때문에, 각각 코드를 수정하여 해결하였습니다. 일반 기사에서는 ‘re.findall을 html’에 적용하여 시간을 구했고, 스포츠 기사에서는 ‘naver database listpage’에서 ‘dict’형식의" />
+    <meta property="og:description" content="PULL_REQUEST 탭은 다음과 같이 구성되어 있습니다. Pull Request Introduction Pull Request1 about Issue1 Pull Request2 about Issue2 Issu2에 대한 Pull Request 구현 앞선 포스트에서 보셨다시피, 스포츠 기사와 다른 기사들의 크롤링 방식이 다르기 때문에, 각각 코드를 수정하여 해결하였습니다. 일반 기사에서는 ‘re.findall’을 html에 적용하여 시간을 구했고, 스포츠 기사에서는 naver database listpage에서 dict형식의" />
     <meta property="og:url" content="https://20-2-skku-oss.github.io/2020-2-OSS-11/pullrequest2" />
     <meta property="og:image" content="https://20-2-skku-oss.github.io/2020-2-OSS-11/assets/built/images/picture16.jpg" />
     <meta property="article:publisher" content="https://www.facebook.com/" />
@@ -63,7 +63,7 @@
     <meta property="article:tag" content="Pullrequest" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Pull Request2 about Issue2" />
-    <meta name="twitter:description" content="PULL_REQUEST 탭은 다음과 같이 구성되어 있습니다. Pull Request Introduction Pull Request1 about Issue1 Pull Request2 about Issue2 Issu2에 대한 Pull Request 구현 앞선 포스트에서 보셨다시피, 스포츠 기사와 다른 기사들의 크롤링 방식이 다르기 때문에, 각각 코드를 수정하여 해결하였습니다. 일반 기사에서는 ‘re.findall을 html’에 적용하여 시간을 구했고, 스포츠 기사에서는 ‘naver database listpage’에서 ‘dict’형식의" />
+    <meta name="twitter:description" content="PULL_REQUEST 탭은 다음과 같이 구성되어 있습니다. Pull Request Introduction Pull Request1 about Issue1 Pull Request2 about Issue2 Issu2에 대한 Pull Request 구현 앞선 포스트에서 보셨다시피, 스포츠 기사와 다른 기사들의 크롤링 방식이 다르기 때문에, 각각 코드를 수정하여 해결하였습니다. 일반 기사에서는 ‘re.findall’을 html에 적용하여 시간을 구했고, 스포츠 기사에서는 naver database listpage에서 dict형식의" />
     <meta name="twitter:url" content="https://20-2-skku-oss.github.io/2020-2-OSS-11/" />
     <meta name="twitter:image" content="https://20-2-skku-oss.github.io/2020-2-OSS-11/assets/built/images/picture16.jpg" />
     <meta name="twitter:label1" content="Written by" />
@@ -95,7 +95,7 @@
         "@type": "WebPage",
         "@id": "https://20-2-skku-oss.github.io/2020-2-OSS-11/pullrequest2"
     },
-    "description": "PULL_REQUEST 탭은 다음과 같이 구성되어 있습니다. Pull Request Introduction Pull Request1 about Issue1 Pull Request2 about Issue2 Issu2에 대한 Pull Request 구현 앞선 포스트에서 보셨다시피, 스포츠 기사와 다른 기사들의 크롤링 방식이 다르기 때문에, 각각 코드를 수정하여 해결하였습니다. 일반 기사에서는 ‘re.findall을 html’에 적용하여 시간을 구했고, 스포츠 기사에서는 ‘naver database listpage’에서 ‘dict’형식의"
+    "description": "PULL_REQUEST 탭은 다음과 같이 구성되어 있습니다. Pull Request Introduction Pull Request1 about Issue1 Pull Request2 about Issue2 Issu2에 대한 Pull Request 구현 앞선 포스트에서 보셨다시피, 스포츠 기사와 다른 기사들의 크롤링 방식이 다르기 때문에, 각각 코드를 수정하여 해결하였습니다. 일반 기사에서는 ‘re.findall’을 html에 적용하여 시간을 구했고, 스포츠 기사에서는 naver database listpage에서 dict형식의"
 }
     </script>
 
@@ -200,11 +200,11 @@ into the {body} of the default.hbs template -->
 
 <h2 id="구현">구현</h2>
 <p>앞선 포스트에서 보셨다시피, 스포츠 기사와 다른 기사들의 크롤링 방식이 다르기 때문에, 각각 코드를 수정하여 해결하였습니다. 일반 기사에서는 
-‘re.findall을 html’에 적용하여 시간을 구했고, 스포츠 기사에서는 ‘naver database listpage’에서 ‘dict’형식의 컨텐츠를 긁어와 시간을 
+‘re.findall’을 html에 적용하여 시간을 구했고, 스포츠 기사에서는 naver database listpage에서 dict형식의 컨텐츠를 긁어와 시간을 
 구했습니다.</p>
 
 <ul>
-  <li>Articlecrawler.py</li>
+  <li><em>Articlecrawler.py</em></li>
 </ul>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c">#기사 시간대 가져옴</span>
@@ -216,7 +216,7 @@ into the {body} of the default.hbs template -->
 </code></pre></div></div>
 
 <ul>
-  <li>Sportscrawler.py</li>
+  <li><em>Sportscrawler.py</em></li>
 </ul>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">for</span> <span class="n">contents</span> <span class="ow">in</span> <span class="n">content_dict</span><span class="p">[</span><span class="s">"list"</span><span class="p">]:</span>

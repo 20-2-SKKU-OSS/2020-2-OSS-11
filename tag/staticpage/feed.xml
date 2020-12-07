@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="https://20-2-skku-oss.github.io/2020-2-OSS-11/tag/staticpage/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://20-2-skku-oss.github.io/2020-2-OSS-11/" rel="alternate" type="text/html" />
-  <updated>2020-12-07T19:54:19+09:00</updated>
+  <updated>2020-12-07T20:48:10+09:00</updated>
   <id>https://20-2-skku-oss.github.io/2020-2-OSS-11/tag/staticpage/feed.xml</id>
 
   
@@ -47,7 +47,8 @@
 &lt;h2 id=&quot;정적페이지-구성-방법&quot;&gt;정적페이지 구성 방법&lt;/h2&gt;
 &lt;ul&gt;
   &lt;li&gt;로컬 페이지&lt;br /&gt;
-Github Pages만 이용해서는 css 커스터마이징을 할 수 없었고, css 커스터마이징을 하기 위해 ‘http://127.0.0.1:4000’에 로컬 페이지를 
+Github Pages만 이용해서는 css 커스터마이징을 할 수 없었고, css 커스터마이징을 하기 위해 
+‘https://20-2-skku-oss.github.io/2020-2-OSS-11/’에 로컬 페이지를 
 만들어서 홈페이지를 구성하였습니다. 즉시 반영이 되는 걸 볼 수있다는 점도 로컬 페이지의 선택 이유 중 하나입니다.&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -112,21 +113,34 @@ Github Pages만 이용해서는 css 커스터마이징을 할 수 없었고, css
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;css-customizing&quot;&gt;CSS Customizing&lt;/h2&gt;
-&lt;p&gt;UI를 보기 편하게 만들기위해, custom.css를 편집하고,&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;./assets/built/images/csscustomizing1.png&quot; alt=&quot;ex_screenshot&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;gulp를 이용하여 css customizing을 진행하였습니다.&lt;/p&gt;
+&lt;p&gt;UI를 보기 편하게 만들기위해 css customizing을 진행하였습니다. &lt;em&gt;custom.css&lt;/em&gt;를 편집하고 gulp를 이용하여 압축을 한 후에, 포스트의 설정을 
+다루고 있는 &lt;em&gt;default.html&lt;/em&gt;에&lt;/p&gt;
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;&amp;lt;!-- custom.css --&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;link&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;rel=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;stylesheet&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;text/css&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;/2020-2-OSS-11/assets/built/custom.css&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;해당 코드를 삽입하여 css customizing을 완료하였습니다.&lt;/p&gt;
 
 &lt;h2 id=&quot;한글-웹폰트-설정&quot;&gt;한글 웹폰트 설정&lt;/h2&gt;
 &lt;p&gt;커스터마이징 이후에도 여전히 한글의 가독성이 떨어졌고, 이를 해결하기 위해 한글폰트를 나눔고딕 폰트로 
-변경하였습니다. 나눔고딕 폰트를 default.html에 추가하고,&lt;/p&gt;
+변경하였습니다. 나눔고딕 폰트를 &lt;em&gt;default.html&lt;/em&gt;에 추가하고,&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;./assets/built/images/csscustomizing2.png&quot; alt=&quot;ex_screenshot&quot; /&gt;&lt;/p&gt;
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;&amp;lt;!-- 웹폰트 추가 --&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;link&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;rel=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;stylesheet&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;https://fonts.googleapis.com/earlyaccess/nanumgothic.css&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;screen.css 파일에 ‘Nanum Gothic’을 추가해줌으로써,&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;screen.css&lt;/em&gt; 파일에 ‘Nanum Gothic’을 추가해줌으로써,&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;./assets/built/images/csscustomizing3.png&quot; alt=&quot;ex_screenshot&quot; /&gt;&lt;/p&gt;
+&lt;div class=&quot;language-css highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nc&quot;&gt;.post-full-content&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;position&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;relative&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;margin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;auto&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;padding&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;70px&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;100px&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;min-height&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;230px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;font-family&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Georgia&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;'Nanum Gothic'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;serif&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;2.2rem&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;line-height&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;1.6em&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;background&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;#fff&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;한글의 가독성을 향상시켰습니다.&lt;/p&gt;</content>
 
@@ -173,6 +187,7 @@ Github Pages만 이용해서는 css 커스터마이징을 할 수 없었고, css
 &lt;p&gt;포스트에서 가장 중요한 것은 ‘가독성’과 ‘정확한 정보전달’이라고 생각하였습니다.&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;가독성&lt;br /&gt;
+하이퍼링크에는 밑줄이, 파일들에는 이탤릭체는 사용하여 가독성을 높였고, 
 포스트 간의 이동을 자유롭게 하기 위해 각 포스트 상단에 목차를 제공하였습니다.&lt;/li&gt;
   &lt;li&gt;정확한 정보전달&lt;br /&gt;
 프로젝트에서 관심있는 부분을 자세하게 볼 수 있도록 하이퍼링크를 적극 이용하였습니다. 
@@ -181,7 +196,7 @@ Github Pages만 이용해서는 css 커스터마이징을 할 수 없었고, css
 
 &lt;h2 id=&quot;이미지&quot;&gt;이미지&lt;/h2&gt;
 &lt;p&gt;하이퍼링크와 더불어, 텍스트를 나열하기 보다는 이미지를 활용하였습니다.&lt;br /&gt;
-자연 사진들은 모두 &lt;a href=&quot;https://pixabay.com/ko/&quot;&gt;pixabay&lt;/a&gt;에서 다운 받았습니다.&lt;/p&gt;</content>
+자연사진들은 모두 &lt;a href=&quot;https://pixabay.com/ko/&quot;&gt;pixabay&lt;/a&gt;에서 다운 받았습니다.&lt;/p&gt;</content>
 
       
       

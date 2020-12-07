@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="https://20-2-skku-oss.github.io/2020-2-OSS-11/tag/pullrequest/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://20-2-skku-oss.github.io/2020-2-OSS-11/" rel="alternate" type="text/html" />
-  <updated>2020-12-07T19:54:19+09:00</updated>
+  <updated>2020-12-07T20:48:10+09:00</updated>
   <id>https://20-2-skku-oss.github.io/2020-2-OSS-11/tag/pullrequest/feed.xml</id>
 
   
@@ -49,7 +49,7 @@
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;request_content&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;requests&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;totalpage_url&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;timeout&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;headers&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'User-Agent'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'Mozilla/5.0'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;})&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;모든 requests.get 함수에 header 옵션을 추가함으로써 문제를 해결하였고, 이 또한 Issu1에 대한 Pull Request에 포함되어 있습니다.&lt;/p&gt;
+&lt;p&gt;모든 ‘requests.get’ 함수에 header 옵션을 추가함으로써 문제를 해결하였고, 이 또한 Issue1에 대한 Pull Request에 포함되어 있습니다.&lt;/p&gt;
 
 &lt;h2 id=&quot;issu1에-대한-pull-request&quot;&gt;Issu1에 대한 Pull Request&lt;/h2&gt;
 
@@ -58,8 +58,8 @@
 &lt;h2 id=&quot;구현&quot;&gt;구현&lt;/h2&gt;
 
 &lt;p&gt;기존의 크롤러와 url구성과 크롤링 방식이 다르다보니, 대부분의 코드를 새로 짜야 했습니다.
-아래의 set_category와 set_date_range함수는 기존의 articlecrawler와 사용 방식을 비슷하게 하기 위해서 
-만들었고, start 함수는 multiprocessing을 지원하기 위해 만들었습니다.&lt;/p&gt;
+아래의 ‘set_category’와 ‘set_date_range’함수는 기존의 &lt;em&gt;articlecrawler.py&lt;/em&gt;와 사용 방식을 비슷하게 하기 위해서 
+만들었고, ‘start’ 함수는 multiprocessing을 지원하기 위해 만들었습니다.&lt;/p&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;crawling&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;category_name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;Url_category&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[]&lt;/span&gt;
@@ -265,11 +265,11 @@
 
 &lt;h2 id=&quot;구현&quot;&gt;구현&lt;/h2&gt;
 &lt;p&gt;앞선 포스트에서 보셨다시피, 스포츠 기사와 다른 기사들의 크롤링 방식이 다르기 때문에, 각각 코드를 수정하여 해결하였습니다. 일반 기사에서는 
-‘re.findall을 html’에 적용하여 시간을 구했고, 스포츠 기사에서는 ‘naver database listpage’에서 ‘dict’형식의 컨텐츠를 긁어와 시간을 
+‘re.findall’을 html에 적용하여 시간을 구했고, 스포츠 기사에서는 naver database listpage에서 dict형식의 컨텐츠를 긁어와 시간을 
 구했습니다.&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Articlecrawler.py&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Articlecrawler.py&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;#기사 시간대 가져옴&lt;/span&gt;
@@ -281,7 +281,7 @@
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Sportscrawler.py&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;Sportscrawler.py&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;contents&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;content_dict&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;list&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]:&lt;/span&gt;
