@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="https://20-2-skku-oss.github.io/2020-2-OSS-11/feed.xml" rel="self" type="application/atom+xml" /><link href="https://20-2-skku-oss.github.io/2020-2-OSS-11/" rel="alternate" type="text/html" /><updated>2020-12-07T20:48:10+09:00</updated><id>https://20-2-skku-oss.github.io/2020-2-OSS-11/</id><title type="html">Korea News Crawling</title><subtitle>2020-2-OSS-11</subtitle><entry><title type="html">Static Page Contents</title><link href="https://20-2-skku-oss.github.io/2020-2-OSS-11/staticpagecontents" rel="alternate" type="text/html" title="Static Page Contents" /><published>2020-12-07T00:00:00+09:00</published><updated>2020-12-07T00:00:00+09:00</updated><id>https://20-2-skku-oss.github.io/2020-2-OSS-11/staticpagecontents</id><content type="html" xml:base="https://20-2-skku-oss.github.io/2020-2-OSS-11/staticpagecontents">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;STATIC_PAGE 탭은 다음과 같이 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="https://20-2-skku-oss.github.io/2020-2-OSS-11/feed.xml" rel="self" type="application/atom+xml" /><link href="https://20-2-skku-oss.github.io/2020-2-OSS-11/" rel="alternate" type="text/html" /><updated>2020-12-07T21:08:09+09:00</updated><id>https://20-2-skku-oss.github.io/2020-2-OSS-11/</id><title type="html">Korea News Crawling</title><subtitle>2020-2-OSS-11</subtitle><entry><title type="html">Static Page Contents</title><link href="https://20-2-skku-oss.github.io/2020-2-OSS-11/staticpagecontents" rel="alternate" type="text/html" title="Static Page Contents" /><published>2020-12-07T00:00:00+09:00</published><updated>2020-12-07T00:00:00+09:00</updated><id>https://20-2-skku-oss.github.io/2020-2-OSS-11/staticpagecontents</id><content type="html" xml:base="https://20-2-skku-oss.github.io/2020-2-OSS-11/staticpagecontents">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;STATIC_PAGE 탭은 다음과 같이 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./staticpage-introduction&quot;&gt;Static Page Introduction&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./csscustomizing&quot;&gt;CSS Customizing&lt;/a&gt;&lt;/li&gt;
@@ -8,10 +8,10 @@
 &lt;h2 id=&quot;포스트&quot;&gt;포스트&lt;/h2&gt;
 &lt;p&gt;포스트에서 가장 중요한 것은 ‘가독성’과 ‘정확한 정보전달’이라고 생각하였습니다.&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;가독성&lt;br /&gt;
-하이퍼링크에는 밑줄이, 파일들에는 이탤릭체는 사용하여 가독성을 높였고, 
+  &lt;li&gt;&lt;strong&gt;가독성&lt;/strong&gt;&lt;br /&gt;
+하이퍼링크에는 밑줄이, 파일들에는 이탤릭체, 목록의 제목에는 볼드를 적용하여 가독성을 높였고, 
 포스트 간의 이동을 자유롭게 하기 위해 각 포스트 상단에 목차를 제공하였습니다.&lt;/li&gt;
-  &lt;li&gt;정확한 정보전달&lt;br /&gt;
+  &lt;li&gt;&lt;strong&gt;정확한 정보전달&lt;/strong&gt;&lt;br /&gt;
 프로젝트에서 관심있는 부분을 자세하게 볼 수 있도록 하이퍼링크를 적극 이용하였습니다. 
 하이퍼링크는 텍스트의 길이도 줄여주기 때문에, 가독성도 크게 향상시킵니다.&lt;/li&gt;
 &lt;/ul&gt;
@@ -27,16 +27,16 @@
 
 &lt;h2 id=&quot;정적페이지-구성-방법&quot;&gt;정적페이지 구성 방법&lt;/h2&gt;
 &lt;ul&gt;
-  &lt;li&gt;로컬 페이지&lt;br /&gt;
+  &lt;li&gt;&lt;strong&gt;로컬 페이지&lt;/strong&gt;&lt;br /&gt;
 Github Pages만 이용해서는 css 커스터마이징을 할 수 없었고, css 커스터마이징을 하기 위해 
-‘https://20-2-skku-oss.github.io/2020-2-OSS-11/’에 로컬 페이지를 
+‘http://127.0.0.1:4000/2020-2-OSS-11/’에 로컬 페이지를 
 만들어서 홈페이지를 구성하였습니다. 즉시 반영이 되는 걸 볼 수있다는 점도 로컬 페이지의 선택 이유 중 하나입니다.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;img src=&quot;./assets/built/images/staticpageintroduction1.png&quot; alt=&quot;ex_screenshot&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Github Pages&lt;br /&gt;
+  &lt;li&gt;&lt;strong&gt;Github Pages&lt;/strong&gt;&lt;br /&gt;
 로컬 페이지를 통해 완성된 페이지를 Github Page의 default branch인,&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -106,7 +106,7 @@ Github Pages만 이용해서는 css 커스터마이징을 할 수 없었고, css
 구했습니다.&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;em&gt;Articlecrawler.py&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;em&gt;Articlecrawler.py&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;#기사 시간대 가져옴&lt;/span&gt;
@@ -118,7 +118,7 @@ Github Pages만 이용해서는 css 커스터마이징을 할 수 없었고, css
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;em&gt;Sportscrawler.py&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;&lt;em&gt;Sportscrawler.py&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;contents&lt;/span&gt; &lt;span class=&quot;ow&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;content_dict&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;list&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]:&lt;/span&gt;
@@ -322,7 +322,7 @@ Github Pages만 이용해서는 css 커스터마이징을 할 수 없었고, css
     &lt;li&gt;&lt;a href=&quot;./issue3&quot;&gt;Issue3&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://github.com/lumyjuwon/KoreaNewsCrawler&quot;&gt;lumyjuwon님의 github&lt;/a&gt;의 ‘READ.md’ 파일에서 다음과 같은 이슈를 발견할 수 있었습니다.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/lumyjuwon/KoreaNewsCrawler&quot;&gt;lumyjuwon님의 github&lt;/a&gt;의 &lt;em&gt;READ.md&lt;/em&gt; 파일에서 다음과 같은 이슈를 발견할 수 있었습니다.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;./assets/built/images/issue1.png&quot; alt=&quot;ex_screenshot&quot; /&gt;&lt;/p&gt;</content><author><name>KimHyeonHo</name></author><category term="issue" /><summary type="html">ISSUE 탭은 다음과 같이 구성되어 있습니다. Issue Introduction Issue1 Issue2 Issue3</summary></entry><entry><title type="html">Issue Introduction</title><link href="https://20-2-skku-oss.github.io/2020-2-OSS-11/issue-introduction" rel="alternate" type="text/html" title="Issue Introduction" /><published>2020-12-07T00:00:00+09:00</published><updated>2020-12-07T00:00:00+09:00</updated><id>https://20-2-skku-oss.github.io/2020-2-OSS-11/issue-introduction</id><content type="html" xml:base="https://20-2-skku-oss.github.io/2020-2-OSS-11/issue-introduction">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;ISSUE 탭은 다음과 같이 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;

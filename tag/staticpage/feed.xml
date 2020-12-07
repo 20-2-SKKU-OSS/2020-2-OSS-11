@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="https://20-2-skku-oss.github.io/2020-2-OSS-11/tag/staticpage/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://20-2-skku-oss.github.io/2020-2-OSS-11/" rel="alternate" type="text/html" />
-  <updated>2020-12-07T20:48:10+09:00</updated>
+  <updated>2020-12-07T21:08:09+09:00</updated>
   <id>https://20-2-skku-oss.github.io/2020-2-OSS-11/tag/staticpage/feed.xml</id>
 
   
@@ -46,16 +46,16 @@
 
 &lt;h2 id=&quot;정적페이지-구성-방법&quot;&gt;정적페이지 구성 방법&lt;/h2&gt;
 &lt;ul&gt;
-  &lt;li&gt;로컬 페이지&lt;br /&gt;
+  &lt;li&gt;&lt;strong&gt;로컬 페이지&lt;/strong&gt;&lt;br /&gt;
 Github Pages만 이용해서는 css 커스터마이징을 할 수 없었고, css 커스터마이징을 하기 위해 
-‘https://20-2-skku-oss.github.io/2020-2-OSS-11/’에 로컬 페이지를 
+‘http://127.0.0.1:4000/2020-2-OSS-11/’에 로컬 페이지를 
 만들어서 홈페이지를 구성하였습니다. 즉시 반영이 되는 걸 볼 수있다는 점도 로컬 페이지의 선택 이유 중 하나입니다.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;img src=&quot;./assets/built/images/staticpageintroduction1.png&quot; alt=&quot;ex_screenshot&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Github Pages&lt;br /&gt;
+  &lt;li&gt;&lt;strong&gt;Github Pages&lt;/strong&gt;&lt;br /&gt;
 로컬 페이지를 통해 완성된 페이지를 Github Page의 default branch인,&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -186,10 +186,10 @@ Github Pages만 이용해서는 css 커스터마이징을 할 수 없었고, css
 &lt;h2 id=&quot;포스트&quot;&gt;포스트&lt;/h2&gt;
 &lt;p&gt;포스트에서 가장 중요한 것은 ‘가독성’과 ‘정확한 정보전달’이라고 생각하였습니다.&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;가독성&lt;br /&gt;
-하이퍼링크에는 밑줄이, 파일들에는 이탤릭체는 사용하여 가독성을 높였고, 
+  &lt;li&gt;&lt;strong&gt;가독성&lt;/strong&gt;&lt;br /&gt;
+하이퍼링크에는 밑줄이, 파일들에는 이탤릭체, 목록의 제목에는 볼드를 적용하여 가독성을 높였고, 
 포스트 간의 이동을 자유롭게 하기 위해 각 포스트 상단에 목차를 제공하였습니다.&lt;/li&gt;
-  &lt;li&gt;정확한 정보전달&lt;br /&gt;
+  &lt;li&gt;&lt;strong&gt;정확한 정보전달&lt;/strong&gt;&lt;br /&gt;
 프로젝트에서 관심있는 부분을 자세하게 볼 수 있도록 하이퍼링크를 적극 이용하였습니다. 
 하이퍼링크는 텍스트의 길이도 줄여주기 때문에, 가독성도 크게 향상시킵니다.&lt;/li&gt;
 &lt;/ul&gt;
