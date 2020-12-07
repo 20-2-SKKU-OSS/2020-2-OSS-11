@@ -1,3 +1,42 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="https://20-2-skku-oss.github.io/2020-2-OSS-11/feed.xml" rel="self" type="application/atom+xml" /><link href="https://20-2-skku-oss.github.io/2020-2-OSS-11/" rel="alternate" type="text/html" /><updated>2020-12-07T11:25:19+09:00</updated><id>https://20-2-skku-oss.github.io/2020-2-OSS-11/</id><title type="html">Korea News Crawling</title><subtitle>2020-2-OSS-11</subtitle><entry><title type="html">Project Introduction</title><link href="https://20-2-skku-oss.github.io/2020-2-OSS-11/project-introduction" rel="alternate" type="text/html" title="Project Introduction" /><published>2020-11-15T00:00:00+09:00</published><updated>2020-11-15T00:00:00+09:00</updated><id>https://20-2-skku-oss.github.io/2020-2-OSS-11/project-introduction</id><content type="html" xml:base="https://20-2-skku-oss.github.io/2020-2-OSS-11/project-introduction">&lt;p&gt;이 크롤러는 네이버 포털에 올라오는 언론사 뉴스 기사들을 크롤링 해주는 크롤러입니다.
-크롤링 가능한 기사 카테고리는 정치, 경제, 생활문화, IT과학, 사회, 세계, 오피니언입니다.
-스포츠 기사같은 경우 야구, 축구, 농구, 배구, 골프, 일반 스포츠, e스포츠입니다.&lt;/p&gt;</content><author><name>KimHyeonHo</name></author><category term="newscrawling" /><summary type="html">이 크롤러는 네이버 포털에 올라오는 언론사 뉴스 기사들을 크롤링 해주는 크롤러입니다. 크롤링 가능한 기사 카테고리는 정치, 경제, 생활문화, IT과학, 사회, 세계, 오피니언입니다. 스포츠 기사같은 경우 야구, 축구, 농구, 배구, 골프, 일반 스포츠, e스포츠입니다.</summary></entry></feed>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="https://20-2-skku-oss.github.io/2020-2-OSS-11/feed.xml" rel="self" type="application/atom+xml" /><link href="https://20-2-skku-oss.github.io/2020-2-OSS-11/" rel="alternate" type="text/html" /><updated>2020-12-07T12:36:11+09:00</updated><id>https://20-2-skku-oss.github.io/2020-2-OSS-11/</id><title type="html">Korea News Crawling</title><subtitle>2020-2-OSS-11</subtitle><entry><title type="html">Issue3</title><link href="https://20-2-skku-oss.github.io/2020-2-OSS-11/issue3" rel="alternate" type="text/html" title="Issue3" /><published>2020-12-07T00:00:00+09:00</published><updated>2020-12-07T00:00:00+09:00</updated><id>https://20-2-skku-oss.github.io/2020-2-OSS-11/issue3</id><content type="html" xml:base="https://20-2-skku-oss.github.io/2020-2-OSS-11/issue3">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Issue 탭은 다음과 같이 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./introduction&quot;&gt;Issue Introduction&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./issue1&quot;&gt;Issue1&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./issue2&quot;&gt;Issue2&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./issue3&quot;&gt;Issue3&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/lumyjuwon/KoreaNewsCrawler&quot;&gt;lumyjuwon님의 github&lt;/a&gt;의 ‘Issues’ 탭에서 다음과 같은 
+이슈를 발견하였습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;./assets/built/images/issue3.png&quot; alt=&quot;ex_screenshot&quot; /&gt;&lt;/p&gt;</content><author><name>KimHyeonHo</name></author><category term="issue" /><summary type="html">Issue 탭은 다음과 같이 구성되어 있습니다. Issue Introduction Issue1 Issue2 Issue3</summary></entry><entry><title type="html">Issue2</title><link href="https://20-2-skku-oss.github.io/2020-2-OSS-11/issue2" rel="alternate" type="text/html" title="Issue2" /><published>2020-12-07T00:00:00+09:00</published><updated>2020-12-07T00:00:00+09:00</updated><id>https://20-2-skku-oss.github.io/2020-2-OSS-11/issue2</id><content type="html" xml:base="https://20-2-skku-oss.github.io/2020-2-OSS-11/issue2">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Issue 탭은 다음과 같이 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./introduction&quot;&gt;Issue Introduction&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./issue1&quot;&gt;Issue1&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./issue2&quot;&gt;Issue2&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./issue3&quot;&gt;Issue3&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/lumyjuwon/KoreaNewsCrawler&quot;&gt;lumyjuwon님의 github&lt;/a&gt;의 ‘Issues’ 탭에서 다음과 같은 
+이슈를 발견하였습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;./assets/built/images/issue2.png&quot; alt=&quot;ex_screenshot&quot; /&gt;&lt;/p&gt;</content><author><name>KimHyeonHo</name></author><category term="issue" /><summary type="html">Issue 탭은 다음과 같이 구성되어 있습니다. Issue Introduction Issue1 Issue2 Issue3</summary></entry><entry><title type="html">Issue1</title><link href="https://20-2-skku-oss.github.io/2020-2-OSS-11/issue1" rel="alternate" type="text/html" title="Issue1" /><published>2020-12-07T00:00:00+09:00</published><updated>2020-12-07T00:00:00+09:00</updated><id>https://20-2-skku-oss.github.io/2020-2-OSS-11/issue1</id><content type="html" xml:base="https://20-2-skku-oss.github.io/2020-2-OSS-11/issue1">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Issue 탭은 다음과 같이 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./introduction&quot;&gt;Issue Introduction&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./issue1&quot;&gt;Issue1&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./issue2&quot;&gt;Issue2&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./issue3&quot;&gt;Issue3&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/lumyjuwon/KoreaNewsCrawler&quot;&gt;lumyjuwon님의 github&lt;/a&gt;의 ‘READ.md’ 파일에서 다음과 같은 이슈를 발견할 수 있었습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;./assets/built/images/issue1.png&quot; alt=&quot;ex_screenshot&quot; /&gt;&lt;/p&gt;</content><author><name>KimHyeonHo</name></author><category term="issue" /><summary type="html">Issue 탭은 다음과 같이 구성되어 있습니다. Issue Introduction Issue1 Issue2 Issue3</summary></entry><entry><title type="html">Issue Introduction</title><link href="https://20-2-skku-oss.github.io/2020-2-OSS-11/introduction" rel="alternate" type="text/html" title="Issue Introduction" /><published>2020-12-07T00:00:00+09:00</published><updated>2020-12-07T00:00:00+09:00</updated><id>https://20-2-skku-oss.github.io/2020-2-OSS-11/introduction</id><content type="html" xml:base="https://20-2-skku-oss.github.io/2020-2-OSS-11/introduction">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Issue 탭은 다음과 같이 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./introduction&quot;&gt;Issue Introduction&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./issue1&quot;&gt;Issue1&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./issue2&quot;&gt;Issue2&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./issue3&quot;&gt;Issue3&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/lumyjuwon/KoreaNewsCrawler&quot;&gt;lumyjuwon님의 github&lt;/a&gt;의 ‘READ.md’와 ‘Issues’ 탭을 
+확인하여, 총 3가지의 issue들을 찾아낼 수 있었습니다.&lt;/p&gt;</content><author><name>KimHyeonHo</name></author><category term="issue" /><summary type="html">Issue 탭은 다음과 같이 구성되어 있습니다. Issue Introduction Issue1 Issue2 Issue3</summary></entry></feed>

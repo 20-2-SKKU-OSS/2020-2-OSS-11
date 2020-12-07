@@ -2,10 +2,10 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom" >
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
-  <link href="https://20-2-skku-oss.github.io/2020-2-OSS-11/author/KimHyeonHo/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="https://20-2-skku-oss.github.io/2020-2-OSS-11/tag/issue/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://20-2-skku-oss.github.io/2020-2-OSS-11/" rel="alternate" type="text/html" />
   <updated>2020-12-07T12:36:11+09:00</updated>
-  <id>https://20-2-skku-oss.github.io/2020-2-OSS-11/author/KimHyeonHo/feed.xml</id>
+  <id>https://20-2-skku-oss.github.io/2020-2-OSS-11/tag/issue/feed.xml</id>
 
   
   
@@ -30,50 +30,6 @@
   
   
 
-  
-    <entry>
-      <title type="html">Issue1</title>
-      <link href="https://20-2-skku-oss.github.io/2020-2-OSS-11/issue1" rel="alternate" type="text/html" title="Issue1" />
-      <published>2020-12-07T00:00:00+09:00</published>
-      <updated>2020-12-07T00:00:00+09:00</updated>
-      <id>https://20-2-skku-oss.github.io/2020-2-OSS-11/issue1</id>
-      <content type="html" xml:base="https://20-2-skku-oss.github.io/2020-2-OSS-11/issue1">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Issue 탭은 다음과 같이 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
-&lt;ul class=&quot;table-of-contents-list&quot;&gt;
-    &lt;li&gt;&lt;a href=&quot;./introduction&quot;&gt;Issue Introduction&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./issue1&quot;&gt;Issue1&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./issue2&quot;&gt;Issue2&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href=&quot;./issue3&quot;&gt;Issue3&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/lumyjuwon/KoreaNewsCrawler&quot;&gt;lumyjuwon님의 github&lt;/a&gt;의 ‘READ.md’ 파일에서 다음과 같은 이슈를 발견할 수 있었습니다.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;./assets/built/images/issue1.png&quot; alt=&quot;ex_screenshot&quot; /&gt;&lt;/p&gt;</content>
-
-      
-      
-      
-      
-      
-
-      <author>
-          <name>KimHyeonHo</name>
-        
-        
-      </author>
-
-      
-
-      
-        <category term="issue" />
-      
-
-      
-        <summary type="html">Issue 탭은 다음과 같이 구성되어 있습니다. Issue Introduction Issue1 Issue2 Issue3</summary>
-      
-
-      
-      
-    </entry>
   
     <entry>
       <title type="html">Issue2</title>
@@ -121,12 +77,12 @@
     </entry>
   
     <entry>
-      <title type="html">Issue3</title>
-      <link href="https://20-2-skku-oss.github.io/2020-2-OSS-11/issue3" rel="alternate" type="text/html" title="Issue3" />
+      <title type="html">Issue1</title>
+      <link href="https://20-2-skku-oss.github.io/2020-2-OSS-11/issue1" rel="alternate" type="text/html" title="Issue1" />
       <published>2020-12-07T00:00:00+09:00</published>
       <updated>2020-12-07T00:00:00+09:00</updated>
-      <id>https://20-2-skku-oss.github.io/2020-2-OSS-11/issue3</id>
-      <content type="html" xml:base="https://20-2-skku-oss.github.io/2020-2-OSS-11/issue3">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Issue 탭은 다음과 같이 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
+      <id>https://20-2-skku-oss.github.io/2020-2-OSS-11/issue1</id>
+      <content type="html" xml:base="https://20-2-skku-oss.github.io/2020-2-OSS-11/issue1">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Issue 탭은 다음과 같이 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
 &lt;ul class=&quot;table-of-contents-list&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;./introduction&quot;&gt;Issue Introduction&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;./issue1&quot;&gt;Issue1&lt;/a&gt;&lt;/li&gt;
@@ -134,10 +90,9 @@
     &lt;li&gt;&lt;a href=&quot;./issue3&quot;&gt;Issue3&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://github.com/lumyjuwon/KoreaNewsCrawler&quot;&gt;lumyjuwon님의 github&lt;/a&gt;의 ‘Issues’ 탭에서 다음과 같은 
-이슈를 발견하였습니다.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/lumyjuwon/KoreaNewsCrawler&quot;&gt;lumyjuwon님의 github&lt;/a&gt;의 ‘READ.md’ 파일에서 다음과 같은 이슈를 발견할 수 있었습니다.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;./assets/built/images/issue3.png&quot; alt=&quot;ex_screenshot&quot; /&gt;&lt;/p&gt;</content>
+&lt;p&gt;&lt;img src=&quot;./assets/built/images/issue1.png&quot; alt=&quot;ex_screenshot&quot; /&gt;&lt;/p&gt;</content>
 
       
       
@@ -181,6 +136,51 @@
 
 &lt;p&gt;&lt;a href=&quot;https://github.com/lumyjuwon/KoreaNewsCrawler&quot;&gt;lumyjuwon님의 github&lt;/a&gt;의 ‘READ.md’와 ‘Issues’ 탭을 
 확인하여, 총 3가지의 issue들을 찾아낼 수 있었습니다.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>KimHyeonHo</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="issue" />
+      
+
+      
+        <summary type="html">Issue 탭은 다음과 같이 구성되어 있습니다. Issue Introduction Issue1 Issue2 Issue3</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Issue3</title>
+      <link href="https://20-2-skku-oss.github.io/2020-2-OSS-11/issue3" rel="alternate" type="text/html" title="Issue3" />
+      <published>2020-12-07T00:00:00+09:00</published>
+      <updated>2020-12-07T00:00:00+09:00</updated>
+      <id>https://20-2-skku-oss.github.io/2020-2-OSS-11/issue3</id>
+      <content type="html" xml:base="https://20-2-skku-oss.github.io/2020-2-OSS-11/issue3">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;Issue 탭은 다음과 같이 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./introduction&quot;&gt;Issue Introduction&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./issue1&quot;&gt;Issue1&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./issue2&quot;&gt;Issue2&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./issue3&quot;&gt;Issue3&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/lumyjuwon/KoreaNewsCrawler&quot;&gt;lumyjuwon님의 github&lt;/a&gt;의 ‘Issues’ 탭에서 다음과 같은 
+이슈를 발견하였습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;./assets/built/images/issue3.png&quot; alt=&quot;ex_screenshot&quot; /&gt;&lt;/p&gt;</content>
 
       
       
