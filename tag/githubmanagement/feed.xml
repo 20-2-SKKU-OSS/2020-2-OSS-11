@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" >
+  <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
+  <link href="https://20-2-skku-oss.github.io/2020-2-OSS-11/tag/githubmanagement/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="https://20-2-skku-oss.github.io/2020-2-OSS-11/" rel="alternate" type="text/html" />
+  <updated>2020-12-07T19:00:10+09:00</updated>
+  <id>https://20-2-skku-oss.github.io/2020-2-OSS-11/tag/githubmanagement/feed.xml</id>
+
+  
+  
+  
+
+  
+    <title type="html">Korea News Crawling | </title>
+  
+
+  
+    <subtitle>2020-2-OSS-11</subtitle>
+  
+
+  
+
+  
+    
+      
+    
+  
+
+  
+  
+
+  
+    <entry>
+      <title type="html">Github Management README.md</title>
+      <link href="https://20-2-skku-oss.github.io/2020-2-OSS-11/gmreadme" rel="alternate" type="text/html" title="Github Management README.md" />
+      <published>2020-12-07T00:00:00+09:00</published>
+      <updated>2020-12-07T00:00:00+09:00</updated>
+      <id>https://20-2-skku-oss.github.io/2020-2-OSS-11/gmreadme</id>
+      <content type="html" xml:base="https://20-2-skku-oss.github.io/2020-2-OSS-11/gmreadme">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;GITHUB_MANAGEMENT 탭은 다음과 같이 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./gminstruction&quot;&gt;Github Management Introduction&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./gmreadme&quot;&gt;Github Management README.md&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./gmissues&quot;&gt;Github Management Issues&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./gmpullrequests&quot;&gt;Github Management Pull Requests&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./gmwiki&quot;&gt;Github Management Wiki&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;프로젝트에 대한 소개를 &lt;a href=&quot;https://github.com/20-2-SKKU-OSS/2020-2-OSS-11&quot;&gt;README.md&lt;/a&gt;에 정리해 놓았습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;./assets/built/images/gmreadme.png&quot; alt=&quot;ex_screenshot&quot; /&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>KimHyeonHo</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="githubmanagement" />
+      
+
+      
+        <summary type="html">GITHUB_MANAGEMENT 탭은 다음과 같이 구성되어 있습니다. Github Management Introduction Github Management README.md Github Management Issues Github Management Pull Requests Github Management Wiki</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Github Management Pull Requests</title>
+      <link href="https://20-2-skku-oss.github.io/2020-2-OSS-11/gmpullrequests" rel="alternate" type="text/html" title="Github Management Pull Requests" />
+      <published>2020-12-07T00:00:00+09:00</published>
+      <updated>2020-12-07T00:00:00+09:00</updated>
+      <id>https://20-2-skku-oss.github.io/2020-2-OSS-11/gmpullrequests</id>
+      <content type="html" xml:base="https://20-2-skku-oss.github.io/2020-2-OSS-11/gmpullrequests">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;GITHUB_MANAGEMENT 탭은 다음과 같이 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./gminstruction&quot;&gt;Github Management Introduction&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./gmreadme&quot;&gt;Github Management README.md&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./gmissues&quot;&gt;Github Management Issues&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./gmpullrequests&quot;&gt;Github Management Pull Requests&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./gmwiki&quot;&gt;Github Management Wiki&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;프로젝트를 각자의 브랜치에서 코드수정 후에 바로 master branch에 푸시하지않고, 
+&lt;a href=&quot;https://github.com/20-2-SKKU-OSS/2020-2-OSS-11/pulls&quot;&gt;Pull Requests&lt;/a&gt;를 통해서 
+팀원들과 의견을 나눠보고 신중하게 merge를 진행하였습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;./assets/built/images/gmpullrequests.png&quot; alt=&quot;ex_screenshot&quot; /&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>KimHyeonHo</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="githubmanagement" />
+      
+
+      
+        <summary type="html">GITHUB_MANAGEMENT 탭은 다음과 같이 구성되어 있습니다. Github Management Introduction Github Management README.md Github Management Issues Github Management Pull Requests Github Management Wiki</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Github Management Issues</title>
+      <link href="https://20-2-skku-oss.github.io/2020-2-OSS-11/gmissues" rel="alternate" type="text/html" title="Github Management Issues" />
+      <published>2020-12-07T00:00:00+09:00</published>
+      <updated>2020-12-07T00:00:00+09:00</updated>
+      <id>https://20-2-skku-oss.github.io/2020-2-OSS-11/gmissues</id>
+      <content type="html" xml:base="https://20-2-skku-oss.github.io/2020-2-OSS-11/gmissues">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;GITHUB_MANAGEMENT 탭은 다음과 같이 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./gminstruction&quot;&gt;Github Management Introduction&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./gmreadme&quot;&gt;Github Management README.md&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./gmissues&quot;&gt;Github Management Issues&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./gmpullrequests&quot;&gt;Github Management Pull Requests&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./gmwiki&quot;&gt;Github Management Wiki&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;프로젝트 진행을 하면서 생기는 Issue들은 접근성이 빠른 단체 채팅방을 이용하였고, 
+그것들을 추후에 &lt;a href=&quot;https://github.com/20-2-SKKU-OSS/2020-2-OSS-11/issues&quot;&gt;Issues&lt;/a&gt;에 정리하는 방식으로 
+프로젝트를 진행하였습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;./assets/built/images/gmissues.png&quot; alt=&quot;ex_screenshot&quot; /&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>KimHyeonHo</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="githubmanagement" />
+      
+
+      
+        <summary type="html">GITHUB_MANAGEMENT 탭은 다음과 같이 구성되어 있습니다. Github Management Introduction Github Management README.md Github Management Issues Github Management Pull Requests Github Management Wiki</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Github Management Introduction</title>
+      <link href="https://20-2-skku-oss.github.io/2020-2-OSS-11/gminstruction" rel="alternate" type="text/html" title="Github Management Introduction" />
+      <published>2020-12-07T00:00:00+09:00</published>
+      <updated>2020-12-07T00:00:00+09:00</updated>
+      <id>https://20-2-skku-oss.github.io/2020-2-OSS-11/gminstruction</id>
+      <content type="html" xml:base="https://20-2-skku-oss.github.io/2020-2-OSS-11/gminstruction">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;GITHUB_MANAGEMENT 탭은 다음과 같이 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./gminstruction&quot;&gt;Github Management Introduction&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./gmreadme&quot;&gt;Github Management README.md&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./gmissues&quot;&gt;Github Management Issues&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./gmpullrequests&quot;&gt;Github Management Pull Requests&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./gmwiki&quot;&gt;Github Management Wiki&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;프로젝트 소개와 진행사항들을 &lt;a href=&quot;https://github.com/20-2-SKKU-OSS/2020-2-OSS-11&quot;&gt;Github&lt;/a&gt;의 ‘README.md’, ‘Issues’, 
+‘Pull request’, ‘Wiki’ 등을 통하여 관리하였습니다.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>KimHyeonHo</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="githubmanagement" />
+      
+
+      
+        <summary type="html">GITHUB_MANAGEMENT 탭은 다음과 같이 구성되어 있습니다. Github Management Introduction Github Management README.md Github Management Issues Github Management Pull Requests Github Management Wiki</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Github Management Wiki</title>
+      <link href="https://20-2-skku-oss.github.io/2020-2-OSS-11/gmwiki" rel="alternate" type="text/html" title="Github Management Wiki" />
+      <published>2020-12-07T00:00:00+09:00</published>
+      <updated>2020-12-07T00:00:00+09:00</updated>
+      <id>https://20-2-skku-oss.github.io/2020-2-OSS-11/gmwiki</id>
+      <content type="html" xml:base="https://20-2-skku-oss.github.io/2020-2-OSS-11/gmwiki">&lt;p&gt;&lt;span class=&quot;table-of-contents-list&quot;&gt;GITHUB_MANAGEMENT 탭은 다음과 같이 구성되어 있습니다. &lt;/span&gt;&lt;/p&gt;
+&lt;ul class=&quot;table-of-contents-list&quot;&gt;
+    &lt;li&gt;&lt;a href=&quot;./gminstruction&quot;&gt;Github Management Introduction&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./gmreadme&quot;&gt;Github Management README.md&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./gmissues&quot;&gt;Github Management Issues&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./gmpullrequests&quot;&gt;Github Management Pull Requests&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;./gmwiki&quot;&gt;Github Management Wiki&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/20-2-SKKU-OSS/2020-2-OSS-11/wiki&quot;&gt;Wiki&lt;/a&gt;를 통해 프로젝트의 목표, 방향성, 정적페이지 등을 
+설명해놓았습니다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;./assets/built/images/gmwiki.png&quot; alt=&quot;ex_screenshot&quot; /&gt;&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>KimHyeonHo</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="githubmanagement" />
+      
+
+      
+        <summary type="html">GITHUB_MANAGEMENT 탭은 다음과 같이 구성되어 있습니다. Github Management Introduction Github Management README.md Github Management Issues Github Management Pull Requests Github Management Wiki</summary>
+      
+
+      
+      
+    </entry>
+  
+</feed>

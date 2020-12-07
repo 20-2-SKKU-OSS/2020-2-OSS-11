@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
   <link href="https://20-2-skku-oss.github.io/2020-2-OSS-11/tag/staticpage/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://20-2-skku-oss.github.io/2020-2-OSS-11/" rel="alternate" type="text/html" />
-  <updated>2020-12-07T16:42:20+09:00</updated>
+  <updated>2020-12-07T19:00:10+09:00</updated>
   <id>https://20-2-skku-oss.github.io/2020-2-OSS-11/tag/staticpage/feed.xml</id>
 
   
@@ -55,7 +55,7 @@ Github Pages만 이용해서는 css 커스터마이징을 할 수 없었고, css
 
 &lt;ul&gt;
   &lt;li&gt;Github Pages&lt;br /&gt;
-로컬 페이지를 통해 완성된 페이지를, Github Page의 default branch인&lt;/li&gt;
+로컬 페이지를 통해 완성된 페이지를 Github Page의 default branch인,&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;img src=&quot;./assets/built/images/staticpageintroduction2.png&quot; alt=&quot;ex_screenshot&quot; /&gt;&lt;/p&gt;
